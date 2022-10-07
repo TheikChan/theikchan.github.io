@@ -58,7 +58,10 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div []
-        [ text "Welcome Elm"
+        [ text "Theik Chan"
+        , div [] [ text "Mobile Developer" ]
+        , div [] [ text "iOS (Swift/Objective-C), Android(Java/Kotlin), Flutter(Dart)" ]
+        , text "theikchan.tc@gmail.com"
 
         -- , button [ onClick Decrement ] [ text "-" ]
         -- , div [] [ text (String.fromInt model) ]
