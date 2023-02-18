@@ -60,8 +60,11 @@ view model =
     div []
         [ text "Theik Chan"
         , div [] [ text "Mobile Developer" ]
-        , div [] [ text "iOS (Swift/Objective-C), Android(Java/Kotlin), Flutter(Dart)" ]
+        , div [] [ text "iOS (Swift/Objective-C), Android(Kotlin/Java), Flutter(Dart)" ]
         , text "theikchan.tc@gmail.com"
+        -- , row [ width fill ] [ text "header" ]
+        -- , column [ scrollbarY, width fill ] (List.repeat 100 (text "content"))
+        -- , row [ width fill ] [ text "footer" ]
 
         -- , button [ onClick Decrement ] [ text "-" ]
         -- , div [] [ text (String.fromInt model) ]
