@@ -61,11 +61,13 @@ view model =
         [ text "Theik Chan"
         , div [] [ text "Mobile Developer" ]
         , div [] [ text "iOS (Swift/Objective-C), Android(Kotlin/Java), Flutter(Dart)" ]
-        , text "theikchan.tc@gmail.com"
+        , text "Email: theikchan.tc@gmail.com"
+        , text "Linkedin: https://www.linkedin.com/in/theikchan"
+        , text "Twitter: https://twitter.com/theikchan_dev"
+
         -- , row [ width fill ] [ text "header" ]
         -- , column [ scrollbarY, width fill ] (List.repeat 100 (text "content"))
         -- , row [ width fill ] [ text "footer" ]
-
         -- , button [ onClick Decrement ] [ text "-" ]
         -- , div [] [ text (String.fromInt model) ]
         -- , button [ onClick Increment ] [ text "+" ]
