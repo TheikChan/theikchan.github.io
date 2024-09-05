@@ -1,7 +1,7 @@
 module Main exposing (..)
 
 import Browser
-import Html exposing (Html, a, div, h1, h2, img, li, p, text, ul)
+import Html exposing (Html, a, div, h1, h2, h3, img, li, p, text, ul)
 import Html.Attributes exposing (alt, class, href, src)
 
 
@@ -137,96 +137,271 @@ projectsSection : Html Msg
 projectsSection =
     div [ class "section projects" ]
         [ h1 [] [ text "Projects" ]
-        , div [ class "project" ]
-            [ h1 [] [ text "WavePay - Mobile Wallet" ]
-            , p [] [ a [ href "https://apps.apple.com/us/app/wavepay/id1439175549" ] [ text "App Store Link" ] ]
-            , img [ src "assets/wave_pay_wallet_app.png", class "project-image", alt "WavePay Wallet" ] []
-            , p [] [ text """WavePay, mobile wallet application by WaveMoney enabling the inclusion of all users into the digital
-            payment ecosystem, riding on the largest network of ~60,000 agents and 200,000+ merchants.
-            WavePay is one stop solution for all your payment needs .""" ]
+        , div [ class "grid-container" ]
+            [ div [ class "card" ]
+                [ img [ src "assets/wave_pay_wallet_app.png", class "card-image", alt "WavePay Wallet" ] []
+                , div [ class "card-content" ]
+                    [ h2 []
+                        [ p []
+                            [ text "WavePay - Mobile Wallet"
+                            , text " "
+                            , a [ href "https://apps.apple.com/us/app/wavepay/id1439175549" ] [ text "App Store Link" ]
+                            ]
+                        ]
+                    , p [] [ text """WavePay, mobile wallet application by WaveMoney enabling the inclusion of all users into the digital
+                    payment ecosystem, riding on the largest network of ~60,000 agents and 200,000+ merchants.
+                    WavePay is one stop solution for all your payment needs .""" ]
+                    ]
+                ]
+            , div [ class "card" ]
+                [ img [ src "assets/sweet_ichangi_app.png", class "card-image", alt "iFeedback/Sweet Changi Airport" ] []
+                , div [ class "card-content" ]
+                    [ h2 []
+                        [ p []
+                            [ text "iFeedback/Sweet Changi Airport"
+                            , text " "
+                            , a [ href "https://apps.apple.com/sg/app/sweet-changi-airport/id1378230482?mt=8" ] [ text "App Store Link" ]
+                            ]
+                        ]
+                    , p [] [ text """iFeedback/ SWEET Changi Airport is the mobile app version of Changi Airport Group (Singapore) Pte Ltd’s Service Workforce Empowerment and Experience Transformation initiative. The suite of tools available complements the duties of our working community towards better safety, efficiency and passenger experience at Changi Airport.""" ]
+                    ]
+                ]
+            , div [ class "card" ]
+                [ img [ src "assets/actxa_fitness_app.png", class "card-image", alt "Actxa - Fitness Tracker" ] []
+                , div [ class "card-content" ]
+                    [ h2 []
+                        [ p []
+                            [ text "Actxa - Fitness Tracker"
+                            , text " "
+                            , a [ href "https://play.google.com/store/apps/details?id=com.actxa.actxa" ] [ text "Play Store Link" ]
+                            ]
+                        ]
+                    , p [] [ text """Actxa is a fitness application that charts your progress and sets personal goals to stay motivated. With
+                    the Actxa App, you can personalise your profile, sync your daily stats, update your weight and monitor
+                    your sleep patterns with a simple tap of a button.""" ]
+                    ]
+                ]
             ]
-        , div [ class "project" ]
-            [ h1 [] [ text "iFeedback/Sweet Changi Airport" ]
-            , p [] [ a [ href "https://apps.apple.com/sg/app/sweet-changi-airport/id1378230482?mt=8" ] [ text "App Store Link" ] ]
-            , img [ src "assets/sweet_ichangi_app.png", class "project-image", alt "iFeedback/Sweet Changi Airport" ] []
-            , p [] [ text """iFeedback/ SWEET Changi Airport is the mobile app version of Changi Airport Group (Singapore) Pte Ltd’s Service Workforce Empowerment and Experience Transformation initiative. The suite of tools available complements the duties of our working community towards better safety, efficiency and passenger experience at Changi Airport.""" ]
+        , div [ class "grid-container" ]
+            [ div [ class "card" ]
+                [ img [ src "assets/market_data_provider_app.png", class "card-image", alt "Market Data Provider" ] []
+                , div [ class "card-content" ]
+                    [ h2 []
+                        [ p []
+                            [ text "Market Data Provider"
+                            , text " "
+                            , a [ href "https://apps.apple.com/us/app/market-data-provider/id1447795949?mt=8" ] [ text "App Store Link" ]
+                            ]
+                        ]
+                    , p [] [ text """Market Data Provider is a mobile application mainly intended for the merchants to provide real time
+                    prices from various markets, such as commodity, gold, currency and stock prices, etc. to support your
+                    business movement and direction.""" ]
+                    ]
+                ]
+            , div [ class "card" ]
+                [ img [ src "assets/mintheinkha_app.png", class "card-image", alt "MinTheinKha" ] []
+                , div [ class "card-content" ]
+                    [ h2 []
+                        [ p []
+                            [ text "MinTheinKha"
+                            , text " "
+                            , a [ href "https://apps.apple.com/us/app/mintheinkha/id1291876782?mt=8" ] [ text "App Store Link" ]
+                            ]
+                        ]
+                    , p [] [ text """You can use the Min Thein Kha Application to get predictions for you, your family, your friends, and
+                    your colleagues. You will get predicted answers back within (48) hours. Also, you can find out what
+                    mysteries are ahead in your future with Live Video calls with expert astrologers. Draw your tarot cards
+                    online and get your accurate tarot reading for your life. Min Thein Kha has the Best Personal Tarot
+                    Reading for you .""" ]
+                    ]
+                ]
+            , div [ class "card" ]
+                [ img [ src "assets/sbgg_ecommerce_app.png", class "card-image", alt "SBGG Ecommerce" ] []
+                , div [ class "card-content" ]
+                    [ h2 []
+                        [ p []
+                            [ text "SBGG Ecommerce"
+                            , text " "
+                            , a [ href "https://apps.apple.com/us/app/sawbwargyigone/id1623098155?platform=iphone" ] [ text "App Store Link" ]
+                            ]
+                        ]
+                    , p [] [ text """Actxa is a fitness application that charts your progress and sets personal goals to stay motivated. With
+                    the Actxa App, you can personalise your profile, sync your daily stats, update your weight and monitor
+                    your sleep patterns with a simple tap of a button.""" ]
+                    ]
+                ]
             ]
-        , div [ class "project" ]
-            [ h1 [] [ text "Actxa - Fitness Tracker" ]
-            , p [] [ a [ href "https://play.google.com/store/apps/details?id=com.actxa.actxa" ] [ text "Play Store Link" ] ]
-            , img [ src "assets/actxa_fitness_app.png", class "project-image", alt "Actxa - Fitness Tracker" ] []
-            , p [] [ text """Actxa is a fitness application that charts your progress and sets personal goals to stay motivated. With
-            the Actxa App, you can personalise your profile, sync your daily stats, update your weight and monitor
-            your sleep patterns with a simple tap of a button.""" ]
+        , div [ class "grid-container" ]
+            [ div [ class "card" ]
+                [ img [ src "assets/dream_house_real_estate_app.png", class "card-image", alt "DreamHouse - Real Estate" ] []
+                , div [ class "card-content" ]
+                    [ h2 []
+                        [ p []
+                            [ text "DreamHouse - Real Estate"
+                            , text " "
+                            , a [ href "https://apps.apple.com/us/app/dream-house-dh/id1638969494?platform=iphone" ] [ text "App Store Link" ]
+                            ]
+                        ]
+                    , p [] [ text """RealEstate project is everyone can purchase, sell or rent the properties faster and easier. The app offers
+                    app-only benefits to sell or rent. Browse, view your property's details, read reviews and contact the
+                    agents. The user can search properties that are near bus stops or schools or supermarkets. User can also
+                    purchase paid contents with payment subscription plan.""" ]
+                    ]
+                ]
+            , div [ class "card" ]
+                [ img [ src "assets/daily_hrms_app.png", class "card-image", alt "DailyHR" ] []
+                , div [ class "card-content" ]
+                    [ h2 []
+                        [ p []
+                            [ text "DailyHR"
+                            , text " "
+                            , a [ href "https://apps.apple.com/us/app/dailyhrms/id1507119086?platform=iphone" ] [ text "App Store Link" ]
+                            ]
+                        ]
+                    , p [] [ text """DailyHR project is recording for employee daily attendance and employees can easily request leave
+                    from their mobile phone and management level can make approval just with one click. Employees can
+                    also easily request Overtime Hour Work Time and can easily edit employee details information.
+                    Employees can search colleagues from the employees directory and can make communication with
+                    them by email or phone directly. Employees can also check the Leave calendar for Holiday and leave
+                    day. In Admin role and Manager role they can see employee attendance request and overtime request
+                    and leave request and management level can make accept or decline and then, can also check daily
+                    attendance report. My responsibility is to create all features on the app.""" ]
+                    ]
+                ]
+            , div [ class "card" ]
+                [ img [ src "assets/otsms_app.png", class "card-image", alt "SMS (Smart Service Management System)" ] []
+                , div [ class "card-content" ]
+                    [ h2 []
+                        [ p []
+                            [ text "SMS (Smart Service Management System)"
+                            , text " "
+                            , a [ href "https://apps.apple.com/us/app/otsms/id1511411284?platform=iphone" ] [ text "App Store Link" ]
+                            ]
+                        ]
+                    , p [] [ text """SMS project is an application for add work order requests. Work order request can assign to engineer
+                    by admin role or senior engineer role and each engineer can see their intervention request in schedule
+                    list and can make finish intervention by related their intervention and when finish intervention these
+                    have two types are quotation and schedule for next day.""" ]
+                    ]
+                ]
             ]
-        , div [ class "project" ]
-            [ h1 [] [ text "Market Data Provider" ]
-            , p [] [ a [ href "https://apps.apple.com/us/app/market-data-provider/id1447795949?mt=8" ] [ text "App Store Link" ] ]
-            , img [ src "assets/market_data_provider_app.png", class "project-image", alt "Market Data Provider" ] []
-            , p [] [ text """Market Data Provider is a mobile application mainly intended for the merchants to provide real time
-            prices from various markets, such as commodity, gold, currency and stock prices, etc. to support your
-            business movement and direction.""" ]
-            ]
-        , div [ class "project" ]
-            [ h1 [] [ text "MinTheinKha" ]
-            , p [] [ a [ href "https://apps.apple.com/us/app/mintheinkha/id1291876782?mt=8" ] [ text "App Store Link" ] ]
-            , img [ src "assets/mintheinkha_app.png", class "project-image", alt "MinTheinKha" ] []
-            , p [] [ text """You can use the Min Thein Kha Application to get predictions for you, your family, your friends, and
-            your colleagues. You will get predicted answers back within (48) hours. Also, you can find out what
-            mysteries are ahead in your future with Live Video calls with expert astrologers. Draw your tarot cards
-            online and get your accurate tarot reading for your life. Min Thein Kha has the Best Personal Tarot
-            Reading for you .""" ]
-            ]
-        , div [ class "project" ]
-            [ h1 [] [ text "SBGG Ecommerce" ]
-            , p [] [ a [ href "https://apps.apple.com/us/app/sawbwargyigone/id1623098155?platform=iphone" ] [ text "App Store Link" ] ]
-            , img [ src "assets/sbgg_ecommerce_app.png", class "project-image", alt "SBGG Ecommerce" ] []
-            , p [] [ text """SBGG app offers app-only benefits to shop on sawbwargyigone.com faster and easier. Browse, view
-            product details, read reviews, and purchase thousands of products. Sawbwargyigone delivers anywhere
-            in Yangon now. Whether you’re buying construction or electrical materials, tracking orders, reading
-            reviews, or just shopping, the SBGG app offers more benefits than shopping on sawbwargyigone.com
-            via your browser version. My responsibility is to create all features on the app.""" ]
-            ]
-        , div [ class "project" ]
-            [ h1 [] [ text "RealEstate Property" ]
-            , p [] [ a [ href "https://apps.apple.com/us/app/dream-house-dh/id1638969494?platform=iphone" ] [ text "App Store Link" ] ]
-            , img [ src "assets/dream_house_real_estate_app.png", class "project-image", alt "RealEstate Property" ] []
-            , p [] [ text """RealEstate project is everyone can purchase, sell or rent the properties faster and easier. The app offers
-            app-only benefits to sell or rent. Browse, view your property's details, read reviews and contact the
-            agents. The user can search properties that are near bus stops or schools or supermarkets. User can also
-            purchase paid contents with payment subscription plan.""" ]
-            ]
-        , div [ class "project" ]
-            [ h1 [] [ text "DailyHR" ]
-            , p [] [ a [ href "https://apps.apple.com/us/app/dailyhrms/id1507119086?platform=iphone" ] [ text "App Store Link" ] ]
-            , img [ src "assets/daily_hrms_app.png", class "project-image", alt "DailyHR" ] []
-            , p [] [ text """DailyHR project is recording for employee daily attendance and employees can easily request leave
-            from their mobile phone and management level can make approval just with one click. Employees can
-            also easily request Overtime Hour Work Time and can easily edit employee details information.
-            Employees can search colleagues from the employees directory and can make communication with
-            them by email or phone directly. Employees can also check the Leave calendar for Holiday and leave
-            day. In Admin role and Manager role they can see employee attendance request and overtime request
-            and leave request and management level can make accept or decline and then, can also check daily
-            attendance report. My responsibility is to create all features on the app.""" ]
-            ]
-        , div [ class "project" ]
-            [ h1 [] [ text "SMS (Smart Service Management System)" ]
-            , p [] [ a [ href "https://apps.apple.com/us/app/otsms/id1511411284?platform=iphone" ] [ text "App Store Link" ] ]
-            , img [ src "assets/otsms_app.png", class "project-image", alt "SMS (Smart Service Management System)" ] []
-            , p [] [ text """SMS project is an application for add work order requests. Work order request can assign to engineer
-            by admin role or senior engineer role and each engineer can see their intervention request in schedule
-            list and can make finish intervention by related their intervention and when finish intervention these
-            have two types are quotation and schedule for next day.""" ]
-            ]
-        , div [ class "project" ]
-            [ h1 [] [ text "School Management System" ]
-            , p [] [ a [ href "https://apps.apple.com/sg/app/t-h-maths-centre/id1572383041?platform=iphone" ] [ text "App Store Link" ] ]
-            , img [ src "assets/t_and_h_school_app.png", class "project-image", alt "School Management System" ] []
-            , p [] [ text """School Management system App ensured the real-time interaction between teachers and students
-            through SMS messages. Parents can register programs and competitions via SMS mobile app and pay
-            their child’s school fee online payment. My responsibility is to create all features on the app.""" ]
+        , div [ class "grid-container" ]
+            [ div [ class "card" ]
+                [ img [ src "assets/t_and_h_school_app.png", class "card-image", alt "School Management System" ] []
+                , div [ class "card-content" ]
+                    [ h2 []
+                        [ p []
+                            [ text "School Management System"
+                            , text " "
+                            , a [ href "https://apps.apple.com/sg/app/t-h-maths-centre/id1572383041?platform=iphone" ] [ text "App Store Link" ]
+                            ]
+                        ]
+                    , p [] [ text """School Management system App ensured the real-time interaction between teachers and students
+                    through SMS messages. Parents can register programs and competitions via SMS mobile app and pay
+                    their child’s school fee online payment. My responsibility is to create all features on the app.""" ]
+                    ]
+                ]
+            , div [] []
+            , div [] []
             ]
         ]
+
+
+
+-- projectsSection : Html Msg
+-- projectsSection =
+--     div [ class "section projects" ]
+--         [ h1 [] [ text "Projects" ]
+--         , div [ class "project" ]
+--             [ h1 [] [ text "WavePay - Mobile Wallet" ]
+--             , p [] [ a [ href "https://apps.apple.com/us/app/wavepay/id1439175549" ] [ text "App Store Link" ] ]
+--             , img [ src "assets/wave_pay_wallet_app.png", class "project-image", alt "WavePay Wallet" ] []
+--             , p [] [ text """WavePay, mobile wallet application by WaveMoney enabling the inclusion of all users into the digital
+--             payment ecosystem, riding on the largest network of ~60,000 agents and 200,000+ merchants.
+--             WavePay is one stop solution for all your payment needs .""" ]
+--             ]
+--         , div [ class "project" ]
+--             [ h1 [] [ text "iFeedback/Sweet Changi Airport" ]
+--             , p [] [ a [ href "https://apps.apple.com/sg/app/sweet-changi-airport/id1378230482?mt=8" ] [ text "App Store Link" ] ]
+--             , img [ src "assets/sweet_ichangi_app.png", class "project-image", alt "iFeedback/Sweet Changi Airport" ] []
+--             , p [] [ text """iFeedback/ SWEET Changi Airport is the mobile app version of Changi Airport Group (Singapore) Pte Ltd’s Service Workforce Empowerment and Experience Transformation initiative. The suite of tools available complements the duties of our working community towards better safety, efficiency and passenger experience at Changi Airport.""" ]
+--             ]
+--         , div [ class "project" ]
+--             [ h1 [] [ text "Actxa - Fitness Tracker" ]
+--             , p [] [ a [ href "https://play.google.com/store/apps/details?id=com.actxa.actxa" ] [ text "Play Store Link" ] ]
+--             , img [ src "assets/actxa_fitness_app.png", class "project-image", alt "Actxa - Fitness Tracker" ] []
+--             , p [] [ text """Actxa is a fitness application that charts your progress and sets personal goals to stay motivated. With
+--             the Actxa App, you can personalise your profile, sync your daily stats, update your weight and monitor
+--             your sleep patterns with a simple tap of a button.""" ]
+--             ]
+--         , div [ class "project" ]
+--             [ h1 [] [ text "Market Data Provider" ]
+--             , p [] [ a [ href "https://apps.apple.com/us/app/market-data-provider/id1447795949?mt=8" ] [ text "App Store Link" ] ]
+--             , img [ src "assets/market_data_provider_app.png", class "project-image", alt "Market Data Provider" ] []
+--             , p [] [ text """Market Data Provider is a mobile application mainly intended for the merchants to provide real time
+--             prices from various markets, such as commodity, gold, currency and stock prices, etc. to support your
+--             business movement and direction.""" ]
+--             ]
+--         , div [ class "project" ]
+--             [ h1 [] [ text "MinTheinKha" ]
+--             , p [] [ a [ href "https://apps.apple.com/us/app/mintheinkha/id1291876782?mt=8" ] [ text "App Store Link" ] ]
+--             , img [ src "assets/mintheinkha_app.png", class "project-image", alt "MinTheinKha" ] []
+--             , p [] [ text """You can use the Min Thein Kha Application to get predictions for you, your family, your friends, and
+--             your colleagues. You will get predicted answers back within (48) hours. Also, you can find out what
+--             mysteries are ahead in your future with Live Video calls with expert astrologers. Draw your tarot cards
+--             online and get your accurate tarot reading for your life. Min Thein Kha has the Best Personal Tarot
+--             Reading for you .""" ]
+--             ]
+--         , div [ class "project" ]
+--             [ h1 [] [ text "SBGG Ecommerce" ]
+--             , p [] [ a [ href "https://apps.apple.com/us/app/sawbwargyigone/id1623098155?platform=iphone" ] [ text "App Store Link" ] ]
+--             , img [ src "assets/sbgg_ecommerce_app.png", class "project-image", alt "SBGG Ecommerce" ] []
+--             , p [] [ text """SBGG app offers app-only benefits to shop on sawbwargyigone.com faster and easier. Browse, view
+--             product details, read reviews, and purchase thousands of products. Sawbwargyigone delivers anywhere
+--             in Yangon now. Whether you’re buying construction or electrical materials, tracking orders, reading
+--             reviews, or just shopping, the SBGG app offers more benefits than shopping on sawbwargyigone.com
+--             via your browser version. My responsibility is to create all features on the app.""" ]
+--             ]
+--         , div [ class "project" ]
+--             [ h1 [] [ text "RealEstate Property" ]
+--             , p [] [ a [ href "https://apps.apple.com/us/app/dream-house-dh/id1638969494?platform=iphone" ] [ text "App Store Link" ] ]
+--             , img [ src "assets/dream_house_real_estate_app.png", class "project-image", alt "RealEstate Property" ] []
+--             , p [] [ text """RealEstate project is everyone can purchase, sell or rent the properties faster and easier. The app offers
+--             app-only benefits to sell or rent. Browse, view your property's details, read reviews and contact the
+--             agents. The user can search properties that are near bus stops or schools or supermarkets. User can also
+--             purchase paid contents with payment subscription plan.""" ]
+--             ]
+--         , div [ class "project" ]
+--             [ h1 [] [ text "DailyHR" ]
+--             , p [] [ a [ href "https://apps.apple.com/us/app/dailyhrms/id1507119086?platform=iphone" ] [ text "App Store Link" ] ]
+--             , img [ src "assets/daily_hrms_app.png", class "project-image", alt "DailyHR" ] []
+--             , p [] [ text """DailyHR project is recording for employee daily attendance and employees can easily request leave
+--             from their mobile phone and management level can make approval just with one click. Employees can
+--             also easily request Overtime Hour Work Time and can easily edit employee details information.
+--             Employees can search colleagues from the employees directory and can make communication with
+--             them by email or phone directly. Employees can also check the Leave calendar for Holiday and leave
+--             day. In Admin role and Manager role they can see employee attendance request and overtime request
+--             and leave request and management level can make accept or decline and then, can also check daily
+--             attendance report. My responsibility is to create all features on the app.""" ]
+--             ]
+--         , div [ class "project" ]
+--             [ h1 [] [ text "SMS (Smart Service Management System)" ]
+--             , p [] [ a [ href "https://apps.apple.com/us/app/otsms/id1511411284?platform=iphone" ] [ text "App Store Link" ] ]
+--             , img [ src "assets/otsms_app.png", class "project-image", alt "SMS (Smart Service Management System)" ] []
+--             , p [] [ text """SMS project is an application for add work order requests. Work order request can assign to engineer
+--             by admin role or senior engineer role and each engineer can see their intervention request in schedule
+--             list and can make finish intervention by related their intervention and when finish intervention these
+--             have two types are quotation and schedule for next day.""" ]
+--             ]
+--         , div [ class "project" ]
+--             [ h1 [] [ text "School Management System" ]
+--             , p [] [ a [ href "https://apps.apple.com/sg/app/t-h-maths-centre/id1572383041?platform=iphone" ] [ text "App Store Link" ] ]
+--             , img [ src "assets/t_and_h_school_app.png", class "project-image", alt "School Management System" ] []
+--             , p [] [ text """School Management system App ensured the real-time interaction between teachers and students
+--             through SMS messages. Parents can register programs and competitions via SMS mobile app and pay
+--             their child’s school fee online payment. My responsibility is to create all features on the app.""" ]
+--             ]
+--         ]
 
 
 contactSection : Html Msg
@@ -251,6 +426,19 @@ contactSection =
         , p [] [ a [ href "https://www.linkedin.com/in/theik-chan-9a3b6210a/" ] [ text "LinkedIn" ] ]
         , p [] [ a [ href "https://github.com/TheikChan" ] [ text "Github" ] ]
         ]
+
+
+
+-- techStackSection : Html Msg
+-- techStackSection =
+--     div [ class "section contact" ]
+--         [ h1 [] [ text "Built by" ]
+--         , p []
+--             [ text "Elm, CSS, Github, Zed, Chat GPT"
+--             , text " "
+--             , text "Deployed by Github Action"
+--             ]
+--         ]
 
 
 footer : Html Msg
