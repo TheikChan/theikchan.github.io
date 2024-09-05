@@ -58,8 +58,6 @@ header =
         [ h1 [] [ text "Mr. Theik Chan" ]
         , p [] [ text "Senior iOS Developer" ]
         , p [] [ text "iOS (Swift/Objective-C), Android(Kotlin/Java), Flutter(Dart)" ]
-        , p [] [ text "Address: Bangkok, Thailand" ]
-        , p [] [ text "Language Spoken: English, Burmese" ]
         , p [] [ a [ href "https://github.com/TheikChan" ] [ text "Github" ] ]
         , p [] [ a [ href "https://www.linkedin.com/in/theik-chan-9a3b6210a/" ] [ text "LinkedIn" ] ]
         ]
@@ -68,9 +66,9 @@ header =
 mainContent : Html Msg
 mainContent =
     div [ class "main-content" ]
-        [ aboutSection
+        [ projectsSection
+        , aboutSection
         , skillSection
-        , projectsSection
         , contactSection
         ]
 
@@ -106,31 +104,6 @@ skillSection =
             , li [] [ text "App Store, Play Store, TestFlight, App Center, Firebase" ]
             ]
         ]
-
-
-
--- projectsSectionOld : Html Msg
--- projectsSectionOld =
---     div [ class "section projects" ]
---         [ h1 [] [ text "Projects" ]
---         , ul []
---             [ li [] [ a [ href "https://apps.apple.com/us/app/wavepay/id1439175549" ] [ text "WavePay - Mobile Wallet" ] ]
---             , li [] [ text "iFeedback/Sweet Changi Airport" ]
---             , li [] [ text "CAG Sweet" ]
---             , li [] [ text "iScan" ]
---             , li [] [ text "Conference" ]
---             , li [] [ text "Actxa - Fitness Tracker" ]
---             , li [] [ text "Market Data Provider" ]
---             , li [] [ text "Flexible Pass" ]
---             , li [] [ text "MinTheinKha" ]
---             , li [] [ text "Koolpon - Digital coupons" ]
---             , li [] [ text "DailyHR" ]
---             , li [] [ text "SMS (Smart Service Management System)" ]
---             , li [] [ text "SBGG Ecommerce" ]
---             , li [] [ text "School Management System" ]
---             , li [] [ text "RealEstate Property" ]
---             ]
---         ]
 
 
 projectsSection : Html Msg
@@ -425,6 +398,8 @@ contactSection =
             ]
         , p [] [ a [ href "https://www.linkedin.com/in/theik-chan-9a3b6210a/" ] [ text "LinkedIn" ] ]
         , p [] [ a [ href "https://github.com/TheikChan" ] [ text "Github" ] ]
+        , p [] [ text "Address: Bangkok, Thailand" ]
+        , p [] [ text "Language Spoken: English, Burmese" ]
         ]
 
 

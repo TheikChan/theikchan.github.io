@@ -5256,20 +5256,6 @@ var $author$project$Main$header = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Address: Bangkok, Thailand')
-				])),
-			A2(
-			$elm$html$Html$p,
-			_List_Nil,
-			_List_fromArray(
-				[
-					$elm$html$Html$text('Language Spoken: English, Burmese')
-				])),
-			A2(
-			$elm$html$Html$p,
-			_List_Nil,
-			_List_fromArray(
-				[
 					A2(
 					$elm$html$Html$a,
 					_List_fromArray(
@@ -5436,6 +5422,20 @@ var $author$project$Main$contactSection = A2(
 						[
 							$elm$html$Html$text('Github')
 						]))
+				])),
+			A2(
+			$elm$html$Html$p,
+			_List_Nil,
+			_List_fromArray(
+				[
+					$elm$html$Html$text('Address: Bangkok, Thailand')
+				])),
+			A2(
+			$elm$html$Html$p,
+			_List_Nil,
+			_List_fromArray(
+				[
+					$elm$html$Html$text('Language Spoken: English, Burmese')
 				]))
 		]));
 var $elm$html$Html$Attributes$alt = $elm$html$Html$Attributes$stringProperty('alt');
@@ -6216,7 +6216,7 @@ var $author$project$Main$mainContent = A2(
 			$elm$html$Html$Attributes$class('main-content')
 		]),
 	_List_fromArray(
-		[$author$project$Main$aboutSection, $author$project$Main$skillSection, $author$project$Main$projectsSection, $author$project$Main$contactSection]));
+		[$author$project$Main$projectsSection, $author$project$Main$aboutSection, $author$project$Main$skillSection, $author$project$Main$contactSection]));
 var $author$project$Main$view = function (model) {
 	return A2(
 		$elm$html$Html$div,
