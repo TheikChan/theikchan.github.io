@@ -6216,7 +6216,7 @@ var $author$project$Main$mainContent = A2(
 			$elm$html$Html$Attributes$class('main-content')
 		]),
 	_List_fromArray(
-		[$author$project$Main$projectsSection, $author$project$Main$aboutSection, $author$project$Main$skillSection, $author$project$Main$contactSection]));
+		[$author$project$Main$aboutSection, $author$project$Main$projectsSection, $author$project$Main$skillSection, $author$project$Main$contactSection]));
 var $author$project$Main$view = function (model) {
 	return A2(
 		$elm$html$Html$div,

@@ -66,8 +66,8 @@ header =
 mainContent : Html Msg
 mainContent =
     div [ class "main-content" ]
-        [ projectsSection
-        , aboutSection
+        [ aboutSection
+        , projectsSection
         , skillSection
         , contactSection
         ]
