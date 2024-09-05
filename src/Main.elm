@@ -2,7 +2,7 @@ module Main exposing (..)
 
 import Browser
 import Html exposing (Html, a, div, h1, h2, img, li, p, text, ul)
-import Html.Attributes exposing (class, href, src)
+import Html.Attributes exposing (alt, class, href, src)
 
 
 
@@ -108,26 +108,123 @@ skillSection =
         ]
 
 
+
+-- projectsSectionOld : Html Msg
+-- projectsSectionOld =
+--     div [ class "section projects" ]
+--         [ h1 [] [ text "Projects" ]
+--         , ul []
+--             [ li [] [ a [ href "https://apps.apple.com/us/app/wavepay/id1439175549" ] [ text "WavePay - Mobile Wallet" ] ]
+--             , li [] [ text "iFeedback/Sweet Changi Airport" ]
+--             , li [] [ text "CAG Sweet" ]
+--             , li [] [ text "iScan" ]
+--             , li [] [ text "Conference" ]
+--             , li [] [ text "Actxa - Fitness Tracker" ]
+--             , li [] [ text "Market Data Provider" ]
+--             , li [] [ text "Flexible Pass" ]
+--             , li [] [ text "MinTheinKha" ]
+--             , li [] [ text "Koolpon - Digital coupons" ]
+--             , li [] [ text "DailyHR" ]
+--             , li [] [ text "SMS (Smart Service Management System)" ]
+--             , li [] [ text "SBGG Ecommerce" ]
+--             , li [] [ text "School Management System" ]
+--             , li [] [ text "RealEstate Property" ]
+--             ]
+--         ]
+
+
 projectsSection : Html Msg
 projectsSection =
     div [ class "section projects" ]
         [ h1 [] [ text "Projects" ]
-        , ul []
-            [ li [] [ text "Wave Pay" ]
-            , li [] [ text "iFeedback/Sweet Changi Airport" ]
-            , li [] [ text "CAG Sweet" ]
-            , li [] [ text "iScan" ]
-            , li [] [ text "Conference" ]
-            , li [] [ text "Actxa" ]
-            , li [] [ text "Market Data Provider" ]
-            , li [] [ text "Flexible Pass" ]
-            , li [] [ text "MinTheinKha" ]
-            , li [] [ text "Koolpon" ]
-            , li [] [ text "DailyHR" ]
-            , li [] [ text "SMS (Smart Service Management System)" ]
-            , li [] [ text "SBGG Ecommerce" ]
-            , li [] [ text "School Management System" ]
-            , li [] [ text "RealEstate Property" ]
+        , div [ class "project" ]
+            [ h1 [] [ text "WavePay - Mobile Wallet" ]
+            , p [] [ a [ href "https://apps.apple.com/us/app/wavepay/id1439175549" ] [ text "App Store Link" ] ]
+            , img [ src "assets/wave_pay_wallet_app.png", class "project-image", alt "WavePay Wallet" ] []
+            , p [] [ text """WavePay, mobile wallet application by WaveMoney enabling the inclusion of all users into the digital
+            payment ecosystem, riding on the largest network of ~60,000 agents and 200,000+ merchants.
+            WavePay is one stop solution for all your payment needs .""" ]
+            ]
+        , div [ class "project" ]
+            [ h1 [] [ text "iFeedback/Sweet Changi Airport" ]
+            , p [] [ a [ href "https://apps.apple.com/sg/app/sweet-changi-airport/id1378230482?mt=8" ] [ text "App Store Link" ] ]
+            , img [ src "assets/sweet_ichangi_app.png", class "project-image", alt "iFeedback/Sweet Changi Airport" ] []
+            , p [] [ text """iFeedback/ SWEET Changi Airport is the mobile app version of Changi Airport Group (Singapore) Pte Ltd’s Service Workforce Empowerment and Experience Transformation initiative. The suite of tools available complements the duties of our working community towards better safety, efficiency and passenger experience at Changi Airport.""" ]
+            ]
+        , div [ class "project" ]
+            [ h1 [] [ text "Actxa - Fitness Tracker" ]
+            , p [] [ a [ href "https://play.google.com/store/apps/details?id=com.actxa.actxa" ] [ text "Play Store Link" ] ]
+            , img [ src "assets/actxa_fitness_app.png", class "project-image", alt "Actxa - Fitness Tracker" ] []
+            , p [] [ text """Actxa is a fitness application that charts your progress and sets personal goals to stay motivated. With
+            the Actxa App, you can personalise your profile, sync your daily stats, update your weight and monitor
+            your sleep patterns with a simple tap of a button.""" ]
+            ]
+        , div [ class "project" ]
+            [ h1 [] [ text "Market Data Provider" ]
+            , p [] [ a [ href "https://apps.apple.com/us/app/market-data-provider/id1447795949?mt=8" ] [ text "App Store Link" ] ]
+            , img [ src "assets/market_data_provider_app.png", class "project-image", alt "Market Data Provider" ] []
+            , p [] [ text """Market Data Provider is a mobile application mainly intended for the merchants to provide real time
+            prices from various markets, such as commodity, gold, currency and stock prices, etc. to support your
+            business movement and direction.""" ]
+            ]
+        , div [ class "project" ]
+            [ h1 [] [ text "MinTheinKha" ]
+            , p [] [ a [ href "https://apps.apple.com/us/app/mintheinkha/id1291876782?mt=8" ] [ text "App Store Link" ] ]
+            , img [ src "assets/mintheinkha_app.png", class "project-image", alt "MinTheinKha" ] []
+            , p [] [ text """You can use the Min Thein Kha Application to get predictions for you, your family, your friends, and
+            your colleagues. You will get predicted answers back within (48) hours. Also, you can find out what
+            mysteries are ahead in your future with Live Video calls with expert astrologers. Draw your tarot cards
+            online and get your accurate tarot reading for your life. Min Thein Kha has the Best Personal Tarot
+            Reading for you .""" ]
+            ]
+        , div [ class "project" ]
+            [ h1 [] [ text "SBGG Ecommerce" ]
+            , p [] [ a [ href "https://apps.apple.com/us/app/sawbwargyigone/id1623098155?platform=iphone" ] [ text "App Store Link" ] ]
+            , img [ src "assets/sbgg_ecommerce_app.png", class "project-image", alt "SBGG Ecommerce" ] []
+            , p [] [ text """SBGG app offers app-only benefits to shop on sawbwargyigone.com faster and easier. Browse, view
+            product details, read reviews, and purchase thousands of products. Sawbwargyigone delivers anywhere
+            in Yangon now. Whether you’re buying construction or electrical materials, tracking orders, reading
+            reviews, or just shopping, the SBGG app offers more benefits than shopping on sawbwargyigone.com
+            via your browser version. My responsibility is to create all features on the app.""" ]
+            ]
+        , div [ class "project" ]
+            [ h1 [] [ text "RealEstate Property" ]
+            , p [] [ a [ href "https://apps.apple.com/us/app/dream-house-dh/id1638969494?platform=iphone" ] [ text "App Store Link" ] ]
+            , img [ src "assets/dream_house_real_estate_app.png", class "project-image", alt "RealEstate Property" ] []
+            , p [] [ text """RealEstate project is everyone can purchase, sell or rent the properties faster and easier. The app offers
+            app-only benefits to sell or rent. Browse, view your property's details, read reviews and contact the
+            agents. The user can search properties that are near bus stops or schools or supermarkets. User can also
+            purchase paid contents with payment subscription plan.""" ]
+            ]
+        , div [ class "project" ]
+            [ h1 [] [ text "DailyHR" ]
+            , p [] [ a [ href "https://apps.apple.com/us/app/dailyhrms/id1507119086?platform=iphone" ] [ text "App Store Link" ] ]
+            , img [ src "assets/daily_hrms_app.png", class "project-image", alt "DailyHR" ] []
+            , p [] [ text """DailyHR project is recording for employee daily attendance and employees can easily request leave
+            from their mobile phone and management level can make approval just with one click. Employees can
+            also easily request Overtime Hour Work Time and can easily edit employee details information.
+            Employees can search colleagues from the employees directory and can make communication with
+            them by email or phone directly. Employees can also check the Leave calendar for Holiday and leave
+            day. In Admin role and Manager role they can see employee attendance request and overtime request
+            and leave request and management level can make accept or decline and then, can also check daily
+            attendance report. My responsibility is to create all features on the app.""" ]
+            ]
+        , div [ class "project" ]
+            [ h1 [] [ text "SMS (Smart Service Management System)" ]
+            , p [] [ a [ href "https://apps.apple.com/us/app/otsms/id1511411284?platform=iphone" ] [ text "App Store Link" ] ]
+            , img [ src "assets/otsms_app.png", class "project-image", alt "SMS (Smart Service Management System)" ] []
+            , p [] [ text """SMS project is an application for add work order requests. Work order request can assign to engineer
+            by admin role or senior engineer role and each engineer can see their intervention request in schedule
+            list and can make finish intervention by related their intervention and when finish intervention these
+            have two types are quotation and schedule for next day.""" ]
+            ]
+        , div [ class "project" ]
+            [ h1 [] [ text "School Management System" ]
+            , p [] [ a [ href "https://apps.apple.com/sg/app/t-h-maths-centre/id1572383041?platform=iphone" ] [ text "App Store Link" ] ]
+            , img [ src "assets/t_and_h_school_app.png", class "project-image", alt "School Management System" ] []
+            , p [] [ text """School Management system App ensured the real-time interaction between teachers and students
+            through SMS messages. Parents can register programs and competitions via SMS mobile app and pay
+            their child’s school fee online payment. My responsibility is to create all features on the app.""" ]
             ]
         ]
 
@@ -240,7 +337,7 @@ footer =
 -- app-only benefits to sell or rent. Browse, view your property's details, read reviews and contact the
 -- agents. The user can search properties that are near bus stops or schools or supermarkets. User can also
 -- purchase paid contents with payment subscription plan.
--- ● App Store link - https://apps.apple.com/us/app/dailyhrms/id1507119086?mt=8
+-- ● App Store link - https://apps.apple.com/us/app/dream-house-dh/id1638969494?mt=8
 -- 15) Koolpon
 -- ● KOOLPON is a free mobile application that brings digital coupons in Myanmar which include various
 -- coupons, great offers & unbelievable discounts from restaurants, bars, cafes, spa, beauty salons, gyms,
@@ -251,49 +348,3 @@ footer =
 -- ● Play Store user link - https://play.google.com/store/apps/details?
 -- id=com.aceplus.theikchan.koolpon&hl=en
 -- ● Play Store merchant link - https://play.google.com/store/apps/details?id=com.koolpon.merchant.mm
--- module Main exposing (..)
--- -- Press buttons to increment and decrement a counter.
--- --
--- -- Read how it works:
--- --   https://guide.elm-lang.org/architecture/buttons.html
--- --
--- import Browser
--- import Html exposing (Html, button, div, text)
--- import Html.Events exposing (onClick)
--- -- MAIN
--- main =
---     Browser.sandbox { init = init, update = update, view = view }
--- -- MODEL
--- type alias Model =
---     Int
--- init : Model
--- init =
---     0
--- -- UPDATE
--- type Msg
---     = Increment
---     | Decrement
--- update : Msg -> Model -> Model
--- update msg model =
---     case msg of
---         Increment ->
---             model + 1
---         Decrement ->
---             model - 1
--- -- VIEW
--- view : Model -> Html Msg
--- view model =
---     div []
---         [ text "Theik Chan"
---         , div [] [ text "Mobile Developer" ]
---         , div [] [ text "iOS (Swift/Objective-C), Android(Kotlin/Java), Flutter(Dart)" ]
---         , text "Email: theikchan.tc@gmail.com"
---         , text "Linkedin: https://www.linkedin.com/in/theikchan"
---         , text "Twitter: https://twitter.com/theikchan_dev"
---         -- , row [ width fill ] [ text "header" ]
---         -- , column [ scrollbarY, width fill ] (List.repeat 100 (text "content"))
---         -- , row [ width fill ] [ text "footer" ]
---         -- , button [ onClick Decrement ] [ text "-" ]
---         -- , div [] [ text (String.fromInt model) ]
---         -- , button [ onClick Increment ] [ text "+" ]
---         ]

@@ -5397,8 +5397,14 @@ var $author$project$Main$contactSection = A2(
 						]))
 				]))
 		]));
-var $elm$html$Html$li = _VirtualDom_node('li');
-var $elm$html$Html$ul = _VirtualDom_node('ul');
+var $elm$html$Html$Attributes$alt = $elm$html$Html$Attributes$stringProperty('alt');
+var $elm$html$Html$img = _VirtualDom_node('img');
+var $elm$html$Html$Attributes$src = function (url) {
+	return A2(
+		$elm$html$Html$Attributes$stringProperty,
+		'src',
+		_VirtualDom_noJavaScriptOrHtmlUri(url));
+};
 var $author$project$Main$projectsSection = A2(
 	$elm$html$Html$div,
 	_List_fromArray(
@@ -5415,118 +5421,489 @@ var $author$project$Main$projectsSection = A2(
 					$elm$html$Html$text('Projects')
 				])),
 			A2(
-			$elm$html$Html$ul,
-			_List_Nil,
+			$elm$html$Html$div,
+			_List_fromArray(
+				[
+					$elm$html$Html$Attributes$class('project')
+				]),
 			_List_fromArray(
 				[
 					A2(
-					$elm$html$Html$li,
+					$elm$html$Html$h1,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Wave Pay')
+							$elm$html$Html$text('WavePay - Mobile Wallet')
 						])),
 					A2(
-					$elm$html$Html$li,
+					$elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							A2(
+							$elm$html$Html$a,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$href('https://apps.apple.com/us/app/wavepay/id1439175549')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('App Store Link')
+								]))
+						])),
+					A2(
+					$elm$html$Html$img,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$src('assets/wave_pay_wallet_app.png'),
+							$elm$html$Html$Attributes$class('project-image'),
+							$elm$html$Html$Attributes$alt('WavePay Wallet')
+						]),
+					_List_Nil),
+					A2(
+					$elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('WavePay, mobile wallet application by WaveMoney enabling the inclusion of all users into the digital\n            payment ecosystem, riding on the largest network of ~60,000 agents and 200,000+ merchants.\n            WavePay is one stop solution for all your payment needs .')
+						]))
+				])),
+			A2(
+			$elm$html$Html$div,
+			_List_fromArray(
+				[
+					$elm$html$Html$Attributes$class('project')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					$elm$html$Html$h1,
 					_List_Nil,
 					_List_fromArray(
 						[
 							$elm$html$Html$text('iFeedback/Sweet Changi Airport')
 						])),
 					A2(
-					$elm$html$Html$li,
+					$elm$html$Html$p,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('CAG Sweet')
+							A2(
+							$elm$html$Html$a,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$href('https://apps.apple.com/sg/app/sweet-changi-airport/id1378230482?mt=8')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('App Store Link')
+								]))
 						])),
 					A2(
-					$elm$html$Html$li,
+					$elm$html$Html$img,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$src('assets/sweet_ichangi_app.png'),
+							$elm$html$Html$Attributes$class('project-image'),
+							$elm$html$Html$Attributes$alt('iFeedback/Sweet Changi Airport')
+						]),
+					_List_Nil),
+					A2(
+					$elm$html$Html$p,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('iScan')
-						])),
+							$elm$html$Html$text('iFeedback/ SWEET Changi Airport is the mobile app version of Changi Airport Group (Singapore) Pte Ltd’s Service Workforce Empowerment and Experience Transformation initiative. The suite of tools available complements the duties of our working community towards better safety, efficiency and passenger experience at Changi Airport.')
+						]))
+				])),
+			A2(
+			$elm$html$Html$div,
+			_List_fromArray(
+				[
+					$elm$html$Html$Attributes$class('project')
+				]),
+			_List_fromArray(
+				[
 					A2(
-					$elm$html$Html$li,
+					$elm$html$Html$h1,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Conference')
+							$elm$html$Html$text('Actxa - Fitness Tracker')
 						])),
 					A2(
-					$elm$html$Html$li,
+					$elm$html$Html$p,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Actxa')
+							A2(
+							$elm$html$Html$a,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$href('https://play.google.com/store/apps/details?id=com.actxa.actxa')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('Play Store Link')
+								]))
 						])),
 					A2(
-					$elm$html$Html$li,
+					$elm$html$Html$img,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$src('assets/actxa_fitness_app.png'),
+							$elm$html$Html$Attributes$class('project-image'),
+							$elm$html$Html$Attributes$alt('Actxa - Fitness Tracker')
+						]),
+					_List_Nil),
+					A2(
+					$elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('Actxa is a fitness application that charts your progress and sets personal goals to stay motivated. With\n            the Actxa App, you can personalise your profile, sync your daily stats, update your weight and monitor\n            your sleep patterns with a simple tap of a button.')
+						]))
+				])),
+			A2(
+			$elm$html$Html$div,
+			_List_fromArray(
+				[
+					$elm$html$Html$Attributes$class('project')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					$elm$html$Html$h1,
 					_List_Nil,
 					_List_fromArray(
 						[
 							$elm$html$Html$text('Market Data Provider')
 						])),
 					A2(
-					$elm$html$Html$li,
+					$elm$html$Html$p,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Flexible Pass')
+							A2(
+							$elm$html$Html$a,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$href('https://apps.apple.com/us/app/market-data-provider/id1447795949?mt=8')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('App Store Link')
+								]))
 						])),
 					A2(
-					$elm$html$Html$li,
+					$elm$html$Html$img,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$src('assets/market_data_provider_app.png'),
+							$elm$html$Html$Attributes$class('project-image'),
+							$elm$html$Html$Attributes$alt('Market Data Provider')
+						]),
+					_List_Nil),
+					A2(
+					$elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('Market Data Provider is a mobile application mainly intended for the merchants to provide real time\n            prices from various markets, such as commodity, gold, currency and stock prices, etc. to support your\n            business movement and direction.')
+						]))
+				])),
+			A2(
+			$elm$html$Html$div,
+			_List_fromArray(
+				[
+					$elm$html$Html$Attributes$class('project')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					$elm$html$Html$h1,
 					_List_Nil,
 					_List_fromArray(
 						[
 							$elm$html$Html$text('MinTheinKha')
 						])),
 					A2(
-					$elm$html$Html$li,
+					$elm$html$Html$p,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Koolpon')
+							A2(
+							$elm$html$Html$a,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$href('https://apps.apple.com/us/app/mintheinkha/id1291876782?mt=8')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('App Store Link')
+								]))
 						])),
 					A2(
-					$elm$html$Html$li,
+					$elm$html$Html$img,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$src('assets/mintheinkha_app.png'),
+							$elm$html$Html$Attributes$class('project-image'),
+							$elm$html$Html$Attributes$alt('MinTheinKha')
+						]),
+					_List_Nil),
+					A2(
+					$elm$html$Html$p,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('DailyHR')
-						])),
+							$elm$html$Html$text('You can use the Min Thein Kha Application to get predictions for you, your family, your friends, and\n            your colleagues. You will get predicted answers back within (48) hours. Also, you can find out what\n            mysteries are ahead in your future with Live Video calls with expert astrologers. Draw your tarot cards\n            online and get your accurate tarot reading for your life. Min Thein Kha has the Best Personal Tarot\n            Reading for you .')
+						]))
+				])),
+			A2(
+			$elm$html$Html$div,
+			_List_fromArray(
+				[
+					$elm$html$Html$Attributes$class('project')
+				]),
+			_List_fromArray(
+				[
 					A2(
-					$elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							$elm$html$Html$text('SMS (Smart Service Management System)')
-						])),
-					A2(
-					$elm$html$Html$li,
+					$elm$html$Html$h1,
 					_List_Nil,
 					_List_fromArray(
 						[
 							$elm$html$Html$text('SBGG Ecommerce')
 						])),
 					A2(
-					$elm$html$Html$li,
+					$elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							A2(
+							$elm$html$Html$a,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$href('https://apps.apple.com/us/app/sawbwargyigone/id1623098155?platform=iphone')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('App Store Link')
+								]))
+						])),
+					A2(
+					$elm$html$Html$img,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$src('assets/sbgg_ecommerce_app.png'),
+							$elm$html$Html$Attributes$class('project-image'),
+							$elm$html$Html$Attributes$alt('SBGG Ecommerce')
+						]),
+					_List_Nil),
+					A2(
+					$elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('SBGG app offers app-only benefits to shop on sawbwargyigone.com faster and easier. Browse, view\n            product details, read reviews, and purchase thousands of products. Sawbwargyigone delivers anywhere\n            in Yangon now. Whether you’re buying construction or electrical materials, tracking orders, reading\n            reviews, or just shopping, the SBGG app offers more benefits than shopping on sawbwargyigone.com\n            via your browser version. My responsibility is to create all features on the app.')
+						]))
+				])),
+			A2(
+			$elm$html$Html$div,
+			_List_fromArray(
+				[
+					$elm$html$Html$Attributes$class('project')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					$elm$html$Html$h1,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('RealEstate Property')
+						])),
+					A2(
+					$elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							A2(
+							$elm$html$Html$a,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$href('https://apps.apple.com/us/app/dream-house-dh/id1638969494?platform=iphone')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('App Store Link')
+								]))
+						])),
+					A2(
+					$elm$html$Html$img,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$src('assets/dream_house_real_estate_app.png'),
+							$elm$html$Html$Attributes$class('project-image'),
+							$elm$html$Html$Attributes$alt('RealEstate Property')
+						]),
+					_List_Nil),
+					A2(
+					$elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('RealEstate project is everyone can purchase, sell or rent the properties faster and easier. The app offers\n            app-only benefits to sell or rent. Browse, view your property\'s details, read reviews and contact the\n            agents. The user can search properties that are near bus stops or schools or supermarkets. User can also\n            purchase paid contents with payment subscription plan.')
+						]))
+				])),
+			A2(
+			$elm$html$Html$div,
+			_List_fromArray(
+				[
+					$elm$html$Html$Attributes$class('project')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					$elm$html$Html$h1,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('DailyHR')
+						])),
+					A2(
+					$elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							A2(
+							$elm$html$Html$a,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$href('https://apps.apple.com/us/app/dailyhrms/id1507119086?platform=iphone')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('App Store Link')
+								]))
+						])),
+					A2(
+					$elm$html$Html$img,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$src('assets/daily_hrms_app.png'),
+							$elm$html$Html$Attributes$class('project-image'),
+							$elm$html$Html$Attributes$alt('DailyHR')
+						]),
+					_List_Nil),
+					A2(
+					$elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('DailyHR project is recording for employee daily attendance and employees can easily request leave\n            from their mobile phone and management level can make approval just with one click. Employees can\n            also easily request Overtime Hour Work Time and can easily edit employee details information.\n            Employees can search colleagues from the employees directory and can make communication with\n            them by email or phone directly. Employees can also check the Leave calendar for Holiday and leave\n            day. In Admin role and Manager role they can see employee attendance request and overtime request\n            and leave request and management level can make accept or decline and then, can also check daily\n            attendance report. My responsibility is to create all features on the app.')
+						]))
+				])),
+			A2(
+			$elm$html$Html$div,
+			_List_fromArray(
+				[
+					$elm$html$Html$Attributes$class('project')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					$elm$html$Html$h1,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('SMS (Smart Service Management System)')
+						])),
+					A2(
+					$elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							A2(
+							$elm$html$Html$a,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$href('https://apps.apple.com/us/app/otsms/id1511411284?platform=iphone')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('App Store Link')
+								]))
+						])),
+					A2(
+					$elm$html$Html$img,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$src('assets/otsms_app.png'),
+							$elm$html$Html$Attributes$class('project-image'),
+							$elm$html$Html$Attributes$alt('SMS (Smart Service Management System)')
+						]),
+					_List_Nil),
+					A2(
+					$elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('SMS project is an application for add work order requests. Work order request can assign to engineer\n            by admin role or senior engineer role and each engineer can see their intervention request in schedule\n            list and can make finish intervention by related their intervention and when finish intervention these\n            have two types are quotation and schedule for next day.')
+						]))
+				])),
+			A2(
+			$elm$html$Html$div,
+			_List_fromArray(
+				[
+					$elm$html$Html$Attributes$class('project')
+				]),
+			_List_fromArray(
+				[
+					A2(
+					$elm$html$Html$h1,
 					_List_Nil,
 					_List_fromArray(
 						[
 							$elm$html$Html$text('School Management System')
 						])),
 					A2(
-					$elm$html$Html$li,
+					$elm$html$Html$p,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('RealEstate Property')
+							A2(
+							$elm$html$Html$a,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$href('https://apps.apple.com/sg/app/t-h-maths-centre/id1572383041?platform=iphone')
+								]),
+							_List_fromArray(
+								[
+									$elm$html$Html$text('App Store Link')
+								]))
+						])),
+					A2(
+					$elm$html$Html$img,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$src('assets/t_and_h_school_app.png'),
+							$elm$html$Html$Attributes$class('project-image'),
+							$elm$html$Html$Attributes$alt('School Management System')
+						]),
+					_List_Nil),
+					A2(
+					$elm$html$Html$p,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('School Management system App ensured the real-time interaction between teachers and students\n            through SMS messages. Parents can register programs and competitions via SMS mobile app and pay\n            their child’s school fee online payment. My responsibility is to create all features on the app.')
 						]))
 				]))
 		]));
 var $elm$html$Html$h2 = _VirtualDom_node('h2');
+var $elm$html$Html$li = _VirtualDom_node('li');
+var $elm$html$Html$ul = _VirtualDom_node('ul');
 var $author$project$Main$skillSection = A2(
 	$elm$html$Html$div,
 	_List_fromArray(

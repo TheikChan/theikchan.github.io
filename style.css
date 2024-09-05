@@ -34,3 +34,24 @@ a {
     text-decoration: none;
     color: #0066cc;
 }
+
+.project {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.project h1 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Adjust this to control image size */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
