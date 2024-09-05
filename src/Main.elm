@@ -233,10 +233,21 @@ contactSection : Html Msg
 contactSection =
     div [ class "section contact" ]
         [ h1 [] [ text "Contact" ]
-        , p [] [ text "Mobile: +959795566375, +660830423100" ]
-        , p [] [ text "Whatsapp: +959795566375" ]
+        , p []
+            [ text "Phone: "
+            , a [ href "tel:+959795566375" ] [ text "+959795566375" ]
+            , text " , "
+            , a [ href "tel:+660830423100" ] [ text "+660830423100" ]
+            ]
+        , p []
+            [ text "Whatsapp: "
+            , a [ href "tel:+959795566375" ] [ text "+959795566375" ]
+            ]
         , p [] [ text "Line ID: theikchan" ]
-        , p [] [ text "Email: theikchan.tc@gmail.com" ]
+        , p []
+            [ text "Email: "
+            , a [ href "mailto:theikchan.tc@gmail.com" ] [ text "theikchan.tc@gmail.com" ]
+            ]
         , p [] [ a [ href "https://www.linkedin.com/in/theik-chan-9a3b6210a/" ] [ text "LinkedIn" ] ]
         , p [] [ a [ href "https://github.com/TheikChan" ] [ text "Github" ] ]
         ]

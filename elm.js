@@ -5341,14 +5341,45 @@ var $author$project$Main$contactSection = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Mobile: +959795566375, +660830423100')
+					$elm$html$Html$text('Phone: '),
+					A2(
+					$elm$html$Html$a,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$href('tel:+959795566375')
+						]),
+					_List_fromArray(
+						[
+							$elm$html$Html$text('+959795566375')
+						])),
+					$elm$html$Html$text(' , '),
+					A2(
+					$elm$html$Html$a,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$href('tel:+660830423100')
+						]),
+					_List_fromArray(
+						[
+							$elm$html$Html$text('+660830423100')
+						]))
 				])),
 			A2(
 			$elm$html$Html$p,
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Whatsapp: +959795566375')
+					$elm$html$Html$text('Whatsapp: '),
+					A2(
+					$elm$html$Html$a,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$href('tel:+959795566375')
+						]),
+					_List_fromArray(
+						[
+							$elm$html$Html$text('+959795566375')
+						]))
 				])),
 			A2(
 			$elm$html$Html$p,
@@ -5362,7 +5393,17 @@ var $author$project$Main$contactSection = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Email: theikchan.tc@gmail.com')
+					$elm$html$Html$text('Email: '),
+					A2(
+					$elm$html$Html$a,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$href('mailto:theikchan.tc@gmail.com')
+						]),
+					_List_fromArray(
+						[
+							$elm$html$Html$text('theikchan.tc@gmail.com')
+						]))
 				])),
 			A2(
 			$elm$html$Html$p,
