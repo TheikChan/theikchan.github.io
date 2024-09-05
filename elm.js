@@ -5249,7 +5249,7 @@ var $author$project$Main$header = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('iOS (Swift/Objective-C), Android(Kotlin/Java), Flutter(Dart)')
+					$elm$html$Html$text('Swift, Objective-C, UIKit, SwiftUI, Combine, RxSwift')
 				])),
 			A2(
 			$elm$html$Html$p,
@@ -6115,35 +6115,42 @@ var $author$project$Main$skillSection = A2(
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('iOS, Android, Flutter, Swift, Objective-C, Kotlin, Java, Dart')
+							$elm$html$Html$text('iOS, Swift, Objective-C, UIKit, SwiftUI, Combine, RxSwift, Concurrency, Security, Apple Vision Framework')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('UIKit, SwiftUI, Android Architecture Components, Combine, RxSwift, RxJava, RxDart, REST, SOAP, Alamofire, Retrofit, Dio')
+							$elm$html$Html$text('REST API, SOAP API, Alamofire,GCD, XCTest, XCTestCase')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('SQLite, Realm, Core Data, Room, Swift Data')
+							$elm$html$Html$text('SQLite, Realm, Core Data, Swift Data')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('MVC, MVP, MVVM+C, VIP, Clean and Modular Architecture')
+							$elm$html$Html$text('Git, GitFlow, Gitlab, GitHub, Jenkins, CI/CD, Fastlane')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Bluetooth, iBaecon, NFC, Actxa Fitness Tracker')
+							$elm$html$Html$text('MVC, MVP, MVVM+C, VIP, Clean Architecture and Modular Architecture')
+						])),
+					A2(
+					$elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('Bluetooth iBaecon, NFC, Actxa Fitness Tracker')
 						])),
 					A2(
 					$elm$html$Html$li,
@@ -6157,21 +6164,28 @@ var $author$project$Main$skillSection = A2(
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Team Leading, peer programming, code review,  refactoring, migration, performance optimization, documentation')
+							$elm$html$Html$text('Team Leading, peer programming, code review, refactoring, migration, performance optimization and documentation')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Technical design discussion, technical consultant, technical support, brainstorming')
+							$elm$html$Html$text('Technical design discussion, research, brainstorming, technical consultant, technical support')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Development, Unit and Integration Testing, Production release, Release monitoring, Troubleshooting,  Crashlytics')
+							$elm$html$Html$text('Development, Unit and Integration Testing, Production release, Release monitoring, Troubleshooting, Crashlytics')
+						])),
+					A2(
+					$elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('Experienced on Android, Kotlin, Java, RxJava, Architecture Components, Room, Retrofit, Dart, RxDart, Dio and Flutter Cross-Platform application development')
 						]))
 				])),
 			A2(
@@ -6205,7 +6219,7 @@ var $author$project$Main$skillSection = A2(
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('App Store, Play Store, TestFlight, App Center, Firebase')
+							$elm$html$Html$text('App Store, Play Store, TestFlight, App Center, Firebase, Analytics Tools (e.g Mixpanel, Adjust, Insider, Firebase Analytics, Google Analytics)\n')
 						]))
 				]))
 		]));
