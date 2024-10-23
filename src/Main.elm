@@ -2,7 +2,7 @@ module Main exposing (..)
 
 import Browser
 import Html exposing (Html, a, div, h1, h2, h3, img, li, p, text, ul)
-import Html.Attributes exposing (alt, class, href, src)
+import Html.Attributes exposing (alt, class, href, src, style)
 
 
 
@@ -55,7 +55,7 @@ view model =
 header : Html Msg
 header =
     div [ class "header" ]
-        [ h1 [] [ text "Mr. Theik Chan" ]
+        [ h1 [] [ text "Theik Chan" ]
         , p [] [ text "Senior iOS Developer" ]
         , p [] [ text "Swift, Objective-C, UIKit, SwiftUI, Combine, RxSwift" ]
         , p [] [ a [ href "https://github.com/TheikChan" ] [ text "Github" ] ]
@@ -77,33 +77,38 @@ aboutSection : Html Msg
 aboutSection =
     div [ class "section about" ]
         [ h1 [] [ text "About Me" ]
-        , p [] [ text "Experienced software developer with over 7 years in the tech industry, specializing in mobile application development and team leadership. Proven expertise working in Fintech, startups, consulting, product development and remote cross-regional teams. Highly skilled in collaboration, with a solid track record of delivering high-quality applications. Proficient in Agile and SCRUM methodologies, self-motivated, and adept at troubleshooting and driving technical discussions." ]
+        , p [] [ text "Senior iOS Developer with 7+ years of experience in mobile application development, including 5+ years in iOS development. Skilled in working with fintech, startup, and large enterprises to deliver scalable, high-performance applications. Expertise in Swift, SwiftUI, Objective-C, Combine, and Android, Flutter cross-platform development. Proven leadership in managing full application lifecycles, migrations, and technicalconsultation for large user bases and App Store and Play Store release monitoring ." ]
         ]
+
+
+
+-- contributionSection : Html Msg
+-- contributionSection =
+--     div
+--         [ -- class "bg-image"
+--           class "section contribution"
+--         , style "background-image" "url('assets/git_contribution.png')"
+--         , style "background-size" "cover"
+--         , style "background-position" "center"
+--         , style "width" "100%"
+--         , style "height" "400px"
+--         ]
+--         []
 
 
 skillSection : Html Msg
 skillSection =
     div [ class "section skill" ]
-        [ h1 [] [ text "Skill" ]
-        , h2 [] [ text "Platform/Framework:" ]
+        [ h2 [] [ text "Key Skill" ]
         , ul []
-            [ li [] [ text "iOS, Swift, Objective-C, UIKit, SwiftUI, Combine, RxSwift, Concurrency, Security, Apple Vision Framework" ]
-            , li [] [ text "REST API, SOAP API, Alamofire,GCD, XCTest, XCTestCase" ]
-            , li [] [ text "SQLite, Realm, Core Data, Swift Data" ]
-            , li [] [ text "Git, GitFlow, Gitlab, GitHub, Jenkins, CI/CD, Fastlane" ]
-            , li [] [ text "MVC, MVP, MVVM+C, VIP, Clean Architecture and Modular Architecture" ]
-            , li [] [ text "Bluetooth iBaecon, NFC, Actxa Fitness Tracker" ]
-            , li [] [ text "Analytics, API Integration, Payment Integration, Third Party Integration" ]
-            , li [] [ text "Team Leading, peer programming, code review, refactoring, migration, performance optimization and documentation" ]
-            , li [] [ text "Technical design discussion, research, brainstorming, technical consultant, technical support" ]
-            , li [] [ text "Development, Unit and Integration Testing, Production release, Release monitoring, Troubleshooting, Crashlytics" ]
-            , li [] [ text "Experienced on Android, Kotlin, Java, RxJava, Architecture Components, Room, Retrofit, Dart, RxDart, Dio and Flutter Cross-Platform application development" ]
-            ]
-        , h2 [] [ text "Tools" ]
-        , ul []
-            [ li [] [ text "Xcode, Android Studio, VS Code, Git, GitFlow, Jenkins, CI/CD, Fastlane, Sourcetree, Postman" ]
-            , li [] [ text "Jira, Confluence, Asana, ClickUp, Trello" ]
-            , li [] [ text "App Store, Play Store, TestFlight, App Center, Firebase, Analytics Tools (e.g Mixpanel, Adjust, Insider, Firebase Analytics, Google Analytics)\n" ]
+            [ li [] [ text "Programming Language: Swift, Objective-C, Kotlin, Java, Dart" ]
+            , li [] [ text "iOS Framework: SwiftUI, UIKit, Combine, RxSwift, Concurrency, Security" ]
+            , li [] [ text "Mobile Architecture: MVC, MVP, MVVM+C, VIPER, Clean Architecture, Modular Architecture" ]
+            , li [] [ text "Database: Realm, Core Data, SQLite, Swift Data, Room" ]
+            , li [] [ text "Tools: Tools: Xcode, Android Studio, Git, Cocoapods, SPM, Gradle, Jenkins CI/CD, Fastlane, Firebase, TestFlight, Figma, Jira, Confluence, Analytics" ]
+            , li [] [ text "Testing: XCTest, Unit Testing, Integration Testing" ]
+            , li [] [ text "Project Management: Project Management: Agile, SCRUM, Technical Consultant, Cross-functional Collaboration, Performance Optimization, Documentation, Release Management" ]
+            , li [] [ text "Team Collaboration: Peer programming, Code review, Refactoring, Architecture Migration, Tech Debt Refactoring" ]
             ]
         ]
 
@@ -384,24 +389,11 @@ contactSection =
     div [ class "section contact" ]
         [ h1 [] [ text "Contact" ]
         , p []
-            [ text "Phone: "
-            , a [ href "tel:+959795566375" ] [ text "+959795566375" ]
-            , text " , "
-            , a [ href "tel:+660830423100" ] [ text "+660830423100" ]
-            ]
-        , p []
-            [ text "Whatsapp: "
-            , a [ href "tel:+959795566375" ] [ text "+959795566375" ]
-            ]
-        , p [] [ text "Line ID: theikchan" ]
-        , p []
             [ text "Email: "
             , a [ href "mailto:theikchan.tc@gmail.com" ] [ text "theikchan.tc@gmail.com" ]
             ]
         , p [] [ a [ href "https://www.linkedin.com/in/theik-chan-9a3b6210a/" ] [ text "LinkedIn" ] ]
         , p [] [ a [ href "https://github.com/TheikChan" ] [ text "Github" ] ]
-        , p [] [ text "Address: Bangkok, Thailand" ]
-        , p [] [ text "Language Spoken: English, Burmese" ]
         ]
 
 
