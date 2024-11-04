@@ -5242,7 +5242,7 @@ var $author$project$Main$header = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Senior iOS Developer')
+					$elm$html$Html$text('iOS Developer')
 				])),
 			A2(
 			$elm$html$Html$p,
@@ -5304,7 +5304,7 @@ var $author$project$Main$aboutSection = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Senior iOS Developer with 7+ years of experience in mobile application development, including 5+ years in iOS development. Skilled in working with fintech, startup, and large enterprises to deliver scalable, high-performance applications. Expertise in Swift, SwiftUI, Objective-C, Combine, and Android, Flutter cross-platform development. Proven leadership in managing full application lifecycles, migrations, and technicalconsultation for large user bases and App Store and Play Store release monitoring .')
+					$elm$html$Html$text('Senior iOS Developer with 7+ years of experience in mobile application development, including 6+ years in iOS development. Skilled in working with fintech, startup, and large enterprises to deliver scalable, high-performance applications. Expertise in Swift, SwiftUI, Objective-C, Combine, and Android, Flutter cross-platform development. Proven leadership in managing full application lifecycles, migrations, and technicalconsultation for large user bases and App Store and Play Store release monitoring.')
 				]))
 		]));
 var $author$project$Main$contactSection = A2(
