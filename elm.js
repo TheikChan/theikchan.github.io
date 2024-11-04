@@ -5211,7 +5211,7 @@ var $author$project$Main$footer = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('© 2024 Theik Chan')
+					$elm$html$Html$text('© 2024 Theik Chan, Build with Elm(https://elm-lang.org)')
 				]))
 		]));
 var $elm$html$Html$a = _VirtualDom_node('a');
@@ -5242,14 +5242,14 @@ var $author$project$Main$header = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('iOS Developer')
+					$elm$html$Html$text('iOS | Android | Flutter')
 				])),
 			A2(
 			$elm$html$Html$p,
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Swift, Objective-C, UIKit, SwiftUI, Combine, RxSwift')
+					$elm$html$Html$text('Swift, Objective-C, Kotlin, Java, Dart, UIKit, SwiftUI, Combine, RxSwift')
 				])),
 			A2(
 			$elm$html$Html$p,
@@ -5304,7 +5304,7 @@ var $author$project$Main$aboutSection = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Senior iOS Developer with 7+ years of experience in mobile application development, including 6+ years in iOS development. Skilled in working with fintech, startup, and large enterprises to deliver scalable, high-performance applications. Expertise in Swift, SwiftUI, Objective-C, Combine, and Android, Flutter cross-platform development. Proven leadership in managing full application lifecycles, migrations, and technicalconsultation for large user bases and App Store and Play Store release monitoring.')
+					$elm$html$Html$text('Senior Mobile Developer with 7+ years of experience in mobile application development, including 6+ years in iOS development. Skilled in working with fintech, startup, and large enterprises to deliver scalable, high-performance applications. Expertise in Swift, SwiftUI, Objective-C, Combine, and Android, Flutter cross-platform development. Proven leadership in managing full application lifecycles, migrations, and technicalconsultation for large user bases and App Store and Play Store release monitoring.')
 				]))
 		]));
 var $author$project$Main$contactSection = A2(

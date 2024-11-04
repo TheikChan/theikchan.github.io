@@ -56,8 +56,8 @@ header : Html Msg
 header =
     div [ class "header" ]
         [ h1 [] [ text "Theik Chan" ]
-        , p [] [ text "iOS Developer" ]
-        , p [] [ text "Swift, Objective-C, UIKit, SwiftUI, Combine, RxSwift" ]
+        , p [] [ text "iOS | Android | Flutter" ]
+        , p [] [ text "Swift, Objective-C, Kotlin, Java, Dart, UIKit, SwiftUI, Combine, RxSwift" ]
         , p [] [ a [ href "https://github.com/TheikChan" ] [ text "Github" ] ]
         , p [] [ a [ href "https://www.linkedin.com/in/theik-chan-9a3b6210a/" ] [ text "LinkedIn" ] ]
         ]
@@ -77,7 +77,7 @@ aboutSection : Html Msg
 aboutSection =
     div [ class "section about" ]
         [ h1 [] [ text "About Me" ]
-        , p [] [ text "Senior iOS Developer with 7+ years of experience in mobile application development, including 6+ years in iOS development. Skilled in working with fintech, startup, and large enterprises to deliver scalable, high-performance applications. Expertise in Swift, SwiftUI, Objective-C, Combine, and Android, Flutter cross-platform development. Proven leadership in managing full application lifecycles, migrations, and technicalconsultation for large user bases and App Store and Play Store release monitoring." ]
+        , p [] [ text "Senior Mobile Developer with 7+ years of experience in mobile application development, including 6+ years in iOS development. Skilled in working with fintech, startup, and large enterprises to deliver scalable, high-performance applications. Expertise in Swift, SwiftUI, Objective-C, Combine, and Android, Flutter cross-platform development. Proven leadership in managing full application lifecycles, migrations, and technicalconsultation for large user bases and App Store and Play Store release monitoring." ]
         ]
 
 
@@ -413,7 +413,7 @@ contactSection =
 footer : Html Msg
 footer =
     div [ class "footer" ]
-        [ p [] [ text "© 2024 Theik Chan" ]
+        [ p [] [ text "© 2024 Theik Chan, Build with Elm(https://elm-lang.org)" ]
         ]
 
 
