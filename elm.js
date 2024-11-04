@@ -5235,7 +5235,7 @@ var $author$project$Main$header = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Mr. Theik Chan')
+					$elm$html$Html$text('Theik Chan')
 				])),
 			A2(
 			$elm$html$Html$p,
@@ -5304,7 +5304,7 @@ var $author$project$Main$aboutSection = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Experienced software developer with over 7 years in the tech industry, specializing in mobile application development and team leadership. Proven expertise working in Fintech, startups, consulting, product development and remote cross-regional teams. Highly skilled in collaboration, with a solid track record of delivering high-quality applications. Proficient in Agile and SCRUM methodologies, self-motivated, and adept at troubleshooting and driving technical discussions.')
+					$elm$html$Html$text('Senior iOS Developer with 7+ years of experience in mobile application development, including 5+ years in iOS development. Skilled in working with fintech, startup, and large enterprises to deliver scalable, high-performance applications. Expertise in Swift, SwiftUI, Objective-C, Combine, and Android, Flutter cross-platform development. Proven leadership in managing full application lifecycles, migrations, and technicalconsultation for large user bases and App Store and Play Store release monitoring .')
 				]))
 		]));
 var $author$project$Main$contactSection = A2(
@@ -5321,58 +5321,6 @@ var $author$project$Main$contactSection = A2(
 			_List_fromArray(
 				[
 					$elm$html$Html$text('Contact')
-				])),
-			A2(
-			$elm$html$Html$p,
-			_List_Nil,
-			_List_fromArray(
-				[
-					$elm$html$Html$text('Phone: '),
-					A2(
-					$elm$html$Html$a,
-					_List_fromArray(
-						[
-							$elm$html$Html$Attributes$href('tel:+959795566375')
-						]),
-					_List_fromArray(
-						[
-							$elm$html$Html$text('+959795566375')
-						])),
-					$elm$html$Html$text(' , '),
-					A2(
-					$elm$html$Html$a,
-					_List_fromArray(
-						[
-							$elm$html$Html$Attributes$href('tel:+660830423100')
-						]),
-					_List_fromArray(
-						[
-							$elm$html$Html$text('+660830423100')
-						]))
-				])),
-			A2(
-			$elm$html$Html$p,
-			_List_Nil,
-			_List_fromArray(
-				[
-					$elm$html$Html$text('Whatsapp: '),
-					A2(
-					$elm$html$Html$a,
-					_List_fromArray(
-						[
-							$elm$html$Html$Attributes$href('tel:+959795566375')
-						]),
-					_List_fromArray(
-						[
-							$elm$html$Html$text('+959795566375')
-						]))
-				])),
-			A2(
-			$elm$html$Html$p,
-			_List_Nil,
-			_List_fromArray(
-				[
-					$elm$html$Html$text('Line ID: theikchan')
 				])),
 			A2(
 			$elm$html$Html$p,
@@ -5422,20 +5370,6 @@ var $author$project$Main$contactSection = A2(
 						[
 							$elm$html$Html$text('Github')
 						]))
-				])),
-			A2(
-			$elm$html$Html$p,
-			_List_Nil,
-			_List_fromArray(
-				[
-					$elm$html$Html$text('Address: Bangkok, Thailand')
-				])),
-			A2(
-			$elm$html$Html$p,
-			_List_Nil,
-			_List_fromArray(
-				[
-					$elm$html$Html$text('Language Spoken: English, Burmese')
 				]))
 		]));
 var $elm$html$Html$Attributes$alt = $elm$html$Html$Attributes$stringProperty('alt');
@@ -6092,18 +6026,11 @@ var $author$project$Main$skillSection = A2(
 	_List_fromArray(
 		[
 			A2(
-			$elm$html$Html$h1,
-			_List_Nil,
-			_List_fromArray(
-				[
-					$elm$html$Html$text('Skill')
-				])),
-			A2(
 			$elm$html$Html$h2,
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Platform/Framework:')
+					$elm$html$Html$text('Key Skill')
 				])),
 			A2(
 			$elm$html$Html$ul,
@@ -6115,111 +6042,56 @@ var $author$project$Main$skillSection = A2(
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('iOS, Swift, Objective-C, UIKit, SwiftUI, Combine, RxSwift, Concurrency, Security, Apple Vision Framework')
+							$elm$html$Html$text('Programming Language: Swift, Objective-C, Kotlin, Java, Dart')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('REST API, SOAP API, Alamofire,GCD, XCTest, XCTestCase')
+							$elm$html$Html$text('iOS Framework: SwiftUI, UIKit, Combine, RxSwift, Concurrency, Security')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('SQLite, Realm, Core Data, Swift Data')
+							$elm$html$Html$text('Mobile Architecture: MVC, MVP, MVVM+C, VIPER, Clean Architecture, Modular Architecture')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Git, GitFlow, Gitlab, GitHub, Jenkins, CI/CD, Fastlane')
+							$elm$html$Html$text('Database: Realm, Core Data, SQLite, Swift Data, Room')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('MVC, MVP, MVVM+C, VIP, Clean Architecture and Modular Architecture')
+							$elm$html$Html$text('Tools: Tools: Xcode, Android Studio, Git, Cocoapods, SPM, Gradle, Jenkins CI/CD, Fastlane, Firebase, TestFlight, Figma, Jira, Confluence, Analytics')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Bluetooth iBaecon, NFC, Actxa Fitness Tracker')
+							$elm$html$Html$text('Testing: XCTest, Unit Testing, Integration Testing')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Analytics, API Integration, Payment Integration, Third Party Integration')
+							$elm$html$Html$text('Project Management: Project Management: Agile, SCRUM, Technical Consultant, Cross-functional Collaboration, Performance Optimization, Documentation, Release Management')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Team Leading, peer programming, code review, refactoring, migration, performance optimization and documentation')
-						])),
-					A2(
-					$elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							$elm$html$Html$text('Technical design discussion, research, brainstorming, technical consultant, technical support')
-						])),
-					A2(
-					$elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							$elm$html$Html$text('Development, Unit and Integration Testing, Production release, Release monitoring, Troubleshooting, Crashlytics')
-						])),
-					A2(
-					$elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							$elm$html$Html$text('Experienced on Android, Kotlin, Java, RxJava, Architecture Components, Room, Retrofit, Dart, RxDart, Dio and Flutter Cross-Platform application development')
-						]))
-				])),
-			A2(
-			$elm$html$Html$h2,
-			_List_Nil,
-			_List_fromArray(
-				[
-					$elm$html$Html$text('Tools')
-				])),
-			A2(
-			$elm$html$Html$ul,
-			_List_Nil,
-			_List_fromArray(
-				[
-					A2(
-					$elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							$elm$html$Html$text('Xcode, Android Studio, VS Code, Git, GitFlow, Jenkins, CI/CD, Fastlane, Sourcetree, Postman')
-						])),
-					A2(
-					$elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							$elm$html$Html$text('Jira, Confluence, Asana, ClickUp, Trello')
-						])),
-					A2(
-					$elm$html$Html$li,
-					_List_Nil,
-					_List_fromArray(
-						[
-							$elm$html$Html$text('App Store, Play Store, TestFlight, App Center, Firebase, Analytics Tools (e.g Mixpanel, Adjust, Insider, Firebase Analytics, Google Analytics)\n')
+							$elm$html$Html$text('Team Collaboration: Peer programming, Code review, Refactoring, Architecture Migration, Tech Debt Refactoring')
 						]))
 				]))
 		]));
