@@ -5304,7 +5304,7 @@ var $author$project$Main$aboutSection = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Senior Mobile Developer with 7+ years of experience in mobile application development, including 6+ years in iOS development. Skilled in working with fintech, startup, and large enterprises to deliver scalable, high-performance applications. Expertise in Swift, SwiftUI, Objective-C, Combine, and Android, Flutter cross-platform development. Proven leadership in managing full application lifecycles, migrations, and technicalconsultation for large user bases and App Store and Play Store release monitoring.')
+					$elm$html$Html$text('Mobile Application Development with 7+ years of specialized experience in building scalable applications for fintech and enterprise clients. Expertise in Swift, SwiftUI, Objective-C, Combine, Compose, Flutter and Kotlin Cross-platform development with a proven track record of delivering high-performance applications supporting millions of users. Skilled in full application lifecycles, leading technical migrations, architectural improvements, technical consultant, mentoring development teams and App Store and Play Store release monitoring.')
 				]))
 		]));
 var $author$project$Main$contactSection = A2(
@@ -6042,56 +6042,77 @@ var $author$project$Main$skillSection = A2(
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Programming Language: Swift, Objective-C, Kotlin, Java, Dart')
+							$elm$html$Html$text('Programming Language: Swift, Objective-C, Kotlin, Java, Dart, C++')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('iOS Framework: SwiftUI, UIKit, Combine, RxSwift, Concurrency, Security')
+							$elm$html$Html$text('iOS: SwiftUI, UIKit, Combine, RxSwift, Concurrency')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Mobile Architecture: MVC, MVP, MVVM+C, VIPER, Clean Architecture, Modular Architecture')
+							$elm$html$Html$text('Android: Compose, AndroidX, Hilt, Coroutines')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Database: Realm, Core Data, SQLite, Swift Data, Room')
+							$elm$html$Html$text('Cross-Platform: Flutter, Kotlin Multiplatform')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Tools: Tools: Xcode, Android Studio, Git, Cocoapods, SPM, Gradle, Jenkins CI/CD, Fastlane, Firebase, TestFlight, Figma, Jira, Confluence, Analytics')
+							$elm$html$Html$text('Mobile Architecture: MVC, MVP, MVVM, VIPER, Clean Architecture, Modular Architecture')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Testing: XCTest, Unit Testing, Integration Testing')
+							$elm$html$Html$text('Database: Realm, Core Data, Swift Data, SQLite, Room')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Project Management: Project Management: Agile, SCRUM, Technical Consultant, Cross-functional Collaboration, Performance Optimization, Documentation, Release Management')
+							$elm$html$Html$text('Testing: XCTest, UI Testing, Unit Testing, Integration Testing')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Team Collaboration: Peer programming, Code review, Refactoring, Architecture Migration, Tech Debt Refactoring')
+							$elm$html$Html$text('Security: Security Framework, Encryption, Secure Communication')
+						])),
+					A2(
+					$elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('Tools: Xcode, Android Studio, VS Code, Git, Git-flow, Cocoapods, SPM, Gradle, Jenkins CI/CD,Fastlane, Firebase, TestFlight, Figma, Jira, Confluence')
+						])),
+					A2(
+					$elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('Analytics: User Profile Analytics, Firebase Analytics, Crash Reporting, Release Monitoring')
+						])),
+					A2(
+					$elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('Project Management & Collaboration: Agile, SCRUM, Peer programming, Code review, Technical Consultant, Documentation')
 						]))
 				]))
 		]));
