@@ -77,23 +77,8 @@ aboutSection : Html Msg
 aboutSection =
     div [ class "section about" ]
         [ h1 [] [ text "About Me" ]
-        , p [] [ text "Senior Mobile Developer with 7+ years of experience in mobile application development, including 6+ years in iOS development. Skilled in working with fintech, startup, and large enterprises to deliver scalable, high-performance applications. Expertise in Swift, SwiftUI, Objective-C, Combine, and Android, Flutter cross-platform development. Proven leadership in managing full application lifecycles, migrations, and technicalconsultation for large user bases and App Store and Play Store release monitoring." ]
+        , p [] [ text "Mobile Application Development with 7+ years of specialized experience in building scalable applications for fintech and enterprise clients. Expertise in Swift, SwiftUI, Objective-C, Combine, Compose, Flutter and Kotlin Cross-platform development with a proven track record of delivering high-performance applications supporting millions of users. Skilled in full application lifecycles, leading technical migrations, architectural improvements, technical consultant, mentoring development teams and App Store and Play Store release monitoring." ]
         ]
-
-
-
--- contributionSection : Html Msg
--- contributionSection =
---     div
---         [ -- class "bg-image"
---           class "section contribution"
---         , style "background-image" "url('assets/git_contribution.png')"
---         , style "background-size" "cover"
---         , style "background-position" "center"
---         , style "width" "100%"
---         , style "height" "400px"
---         ]
---         []
 
 
 skillSection : Html Msg
@@ -101,14 +86,17 @@ skillSection =
     div [ class "section skill" ]
         [ h2 [] [ text "Key Skill" ]
         , ul []
-            [ li [] [ text "Programming Language: Swift, Objective-C, Kotlin, Java, Dart" ]
-            , li [] [ text "iOS Framework: SwiftUI, UIKit, Combine, RxSwift, Concurrency, Security" ]
-            , li [] [ text "Mobile Architecture: MVC, MVP, MVVM+C, VIPER, Clean Architecture, Modular Architecture" ]
-            , li [] [ text "Database: Realm, Core Data, SQLite, Swift Data, Room" ]
-            , li [] [ text "Tools: Tools: Xcode, Android Studio, Git, Cocoapods, SPM, Gradle, Jenkins CI/CD, Fastlane, Firebase, TestFlight, Figma, Jira, Confluence, Analytics" ]
-            , li [] [ text "Testing: XCTest, Unit Testing, Integration Testing" ]
-            , li [] [ text "Project Management: Project Management: Agile, SCRUM, Technical Consultant, Cross-functional Collaboration, Performance Optimization, Documentation, Release Management" ]
-            , li [] [ text "Team Collaboration: Peer programming, Code review, Refactoring, Architecture Migration, Tech Debt Refactoring" ]
+            [ li [] [ text "Programming Language: Swift, Objective-C, Kotlin, Java, Dart, C++" ]
+            , li [] [ text "iOS: SwiftUI, UIKit, Combine, RxSwift, Concurrency" ]
+            , li [] [ text "Android: Compose, AndroidX, Hilt, Coroutines" ]
+            , li [] [ text "Cross-Platform: Flutter, Kotlin Multiplatform" ]
+            , li [] [ text "Mobile Architecture: MVC, MVP, MVVM, VIPER, Clean Architecture, Modular Architecture" ]
+            , li [] [ text "Database: Realm, Core Data, Swift Data, SQLite, Room" ]
+            , li [] [ text "Testing: XCTest, UI Testing, Unit Testing, Integration Testing" ]
+            , li [] [ text "Security: Security Framework, Encryption, Secure Communication" ]
+            , li [] [ text "Tools: Xcode, Android Studio, VS Code, Git, Git-flow, Cocoapods, SPM, Gradle, Jenkins CI/CD,Fastlane, Firebase, TestFlight, Figma, Jira, Confluence" ]
+            , li [] [ text "Analytics: User Profile Analytics, Firebase Analytics, Crash Reporting, Release Monitoring" ]
+            , li [] [ text "Project Management & Collaboration: Agile, SCRUM, Peer programming, Code review, Technical Consultant, Documentation" ]
             ]
         ]
 
@@ -395,19 +383,6 @@ contactSection =
         , p [] [ a [ href "https://www.linkedin.com/in/theik-chan-9a3b6210a/" ] [ text "LinkedIn" ] ]
         , p [] [ a [ href "https://github.com/TheikChan" ] [ text "Github" ] ]
         ]
-
-
-
--- techStackSection : Html Msg
--- techStackSection =
---     div [ class "section contact" ]
---         [ h1 [] [ text "Built by" ]
---         , p []
---             [ text "Elm, CSS, Github, Zed, Chat GPT"
---             , text " "
---             , text "Deployed by Github Action"
---             ]
---         ]
 
 
 footer : Html Msg
