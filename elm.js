@@ -5211,7 +5211,7 @@ var $author$project$Main$footer = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('© 2024 Theik Chan, Build with Elm(https://elm-lang.org)')
+					$elm$html$Html$text('© 2025 Theik Chan, Build with Elm(https://elm-lang.org)')
 				]))
 		]));
 var $elm$html$Html$a = _VirtualDom_node('a');
@@ -5304,7 +5304,7 @@ var $author$project$Main$aboutSection = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Mobile Application Development with 7+ years of specialized experience in building scalable applications for fintech and enterprise clients. Expertise in Swift, SwiftUI, Objective-C, Combine, Compose, Flutter and Kotlin Cross-platform development with a proven track record of delivering high-performance applications supporting millions of users. Skilled in full application lifecycles, leading technical migrations, architectural improvements, technical consultant, mentoring development teams and App Store and Play Store release monitoring.')
+					$elm$html$Html$text('Mobile Application Development with 8+ years of specialized experience in building scalable applications for fintech, startup, consultant and enterprise. Expertise in Swift, SwiftUI, Objective-C, Combine, Kotlin, Java, Compose, Flutter and Kotlin Cross-platform development with a proven track record of delivering high-performance applications supporting millions of users. Skilled in full application development lifecycles, leading technical migrations, architectural improvements, technical consultant, mentoring development teams and App Store and Play Store release monitoring.')
 				]))
 		]));
 var $author$project$Main$contactSection = A2(
@@ -6042,7 +6042,7 @@ var $author$project$Main$skillSection = A2(
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Programming Language: Swift, Objective-C, Kotlin, Java, Dart, C++')
+							$elm$html$Html$text('Programming Language: Swift, Kotlin, Objective-C, Java, Dart, C++')
 						])),
 					A2(
 					$elm$html$Html$li,
