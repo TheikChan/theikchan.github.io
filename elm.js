@@ -5243,7 +5243,7 @@ var $author$project$Main$header = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Swift, Objective-C, Kotlin, Java, JavaScript, TypeScript')
+					$elm$html$Html$text('Swift, Objective-C, Kotlin, Java, C++, JavaScript, TypeScript')
 				])),
 			A2(
 			$elm$html$Html$p,
@@ -6036,7 +6036,7 @@ var $author$project$Main$skillSection = A2(
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Programming Language: Swift, Objective-C, Kotlin, Java, JavaScript, TypeScript')
+							$elm$html$Html$text('Programming Language: Swift, Objective-C, Kotlin, Java, C++, JavaScript, TypeScript')
 						])),
 					A2(
 					$elm$html$Html$li,
