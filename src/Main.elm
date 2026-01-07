@@ -56,8 +56,8 @@ header : Html Msg
 header =
     div [ class "header" ]
         [ h1 [] [ text "Theik Chan" ]
-        , p [] [ text "iOS | Android | Flutter" ]
-        , p [] [ text "Swift, Objective-C, Kotlin, Java, Dart, UIKit, SwiftUI, Combine, RxSwift" ]
+        , p [] [ text "Software Engineer" ]
+        , p [] [ text "Swift, Objective-C, Kotlin, Java, JavaScript, TypeScript" ]
         , p [] [ a [ href "https://github.com/TheikChan" ] [ text "Github" ] ]
         , p [] [ a [ href "https://www.linkedin.com/in/theik-chan-9a3b6210a/" ] [ text "LinkedIn" ] ]
         ]
@@ -77,7 +77,7 @@ aboutSection : Html Msg
 aboutSection =
     div [ class "section about" ]
         [ h1 [] [ text "About Me" ]
-        , p [] [ text "Mobile Application Development with 8+ years of specialized experience in building scalable applications for fintech, startup, consultant and enterprise. Expertise in Swift, SwiftUI, Objective-C, Combine, Kotlin, Java, Compose, Flutter and Kotlin Cross-platform development with a proven track record of delivering high-performance applications supporting millions of users. Skilled in full application development lifecycles, leading technical migrations, architectural improvements, technical consultant, mentoring development teams and App Store and Play Store release monitoring." ]
+        , p [] [ text "Mobile Application Development with 8 years of specialized experience in building scalable applications for fintech, startup, consultant and enterprise. Expertise in Swift, Objective-C, Kotlin, Java with a proven track record of delivering high-performance applications supporting millions of users. Skilled in full application development lifecycles, leading technical migrations, architectural improvements, technical consultant, mentoring development teams and App Store and Play Store release monitoring." ]
         ]
 
 
@@ -86,10 +86,10 @@ skillSection =
     div [ class "section skill" ]
         [ h2 [] [ text "Key Skill" ]
         , ul []
-            [ li [] [ text "Programming Language: Swift, Kotlin, Objective-C, Java, Dart, C++" ]
-            , li [] [ text "iOS: SwiftUI, UIKit, Combine, RxSwift, Concurrency" ]
+            [ li [] [ text "Programming Language: Swift, Objective-C, Kotlin, Java, JavaScript, TypeScript" ]
+            , li [] [ text "iOS: SwiftUI, UIKit, SnapKit, Combine, RxSwift, Concurrency" ]
             , li [] [ text "Android: Compose, AndroidX, Hilt, Coroutines" ]
-            , li [] [ text "Cross-Platform: Flutter, Kotlin Multiplatform" ]
+            , li [] [ text "Cross-Platform: Flutter, React Native" ]
             , li [] [ text "Mobile Architecture: MVC, MVP, MVVM, VIPER, Clean Architecture, Modular Architecture" ]
             , li [] [ text "Database: Realm, Core Data, Swift Data, SQLite, Room" ]
             , li [] [ text "Testing: XCTest, UI Testing, Unit Testing, Integration Testing" ]
