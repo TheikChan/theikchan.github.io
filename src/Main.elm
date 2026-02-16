@@ -193,9 +193,7 @@ projectsSection =
                             , a [ href "https://apps.apple.com/us/app/sawbwargyigone/id1623098155?platform=iphone" ] [ text "App Store Link" ]
                             ]
                         ]
-                    , p [] [ text """Actxa is a fitness application that charts your progress and sets personal goals to stay motivated. With
-                    the Actxa App, you can personalise your profile, sync your daily stats, update your weight and monitor
-                    your sleep patterns with a simple tap of a button.""" ]
+                    , p [] [ text """SBGG app offers app-only benefits to shop on sawbwargyigone.com faster and easier. Browse, view product details, read reviews, and purchase thousands of products. Sawbwargyigone delivers anywhere in Yangon now. Whether you’re buying construction or electrical materials, tracking orders, reading reviews, or just shopping, the SBGG app offers more benefits than shopping on sawbwargyigone.com via your browser version.""" ]
                     ]
                 ]
             ]
