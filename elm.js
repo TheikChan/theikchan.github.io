@@ -5243,7 +5243,7 @@ var $author$project$Main$header = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Swift, Objective-C, Kotlin, Java, C++, JavaScript, TypeScript')
+					$elm$html$Html$text('Swift, Objective-C, Kotlin, Java, JavaScript, TypeScript')
 				])),
 			A2(
 			$elm$html$Html$p,
@@ -5298,7 +5298,7 @@ var $author$project$Main$aboutSection = A2(
 			_List_Nil,
 			_List_fromArray(
 				[
-					$elm$html$Html$text('Mobile Application Development with 8 years of specialized experience in building scalable applications for fintech, startup, consultant and enterprise. Expertise in Swift, Objective-C, Kotlin, Java with a proven track record of delivering high-performance applications supporting millions of users. Skilled in full application development lifecycles, leading technical migrations, architectural improvements, technical consultant, mentoring development teams and App Store and Play Store release monitoring.')
+					$elm$html$Html$text('Software Engineer with 8 years of specialized experience in building scalable applications for fintech, banking, startup, consultant and enterprise. Expertise in Swift, Kotlin, Java and JavaScript with a proven track record of delivering high-performance applications supporting millions of users. Skilled in full application development lifecycles, leading technical migrations, architectural improvements, technical consultant, mentoring development teams and App Store and Play Store release monitoring.')
 				]))
 		]));
 var $author$project$Main$contactSection = A2(
@@ -6064,6 +6064,13 @@ var $author$project$Main$skillSection = A2(
 					_List_Nil,
 					_List_fromArray(
 						[
+							$elm$html$Html$text('Backend: Java Spring Boot')
+						])),
+					A2(
+					$elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
 							$elm$html$Html$text('Mobile Architecture: MVC, MVP, MVVM, VIPER, Clean Architecture, Modular Architecture')
 						])),
 					A2(
@@ -6071,14 +6078,14 @@ var $author$project$Main$skillSection = A2(
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Database: Realm, Core Data, Swift Data, SQLite, Room')
+							$elm$html$Html$text('Database: Realm, Core Data, Swift Data, SQLite, Room, MySQL, PostgreSQL, NoSQL')
 						])),
 					A2(
 					$elm$html$Html$li,
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Testing: XCTest, UI Testing, Unit Testing, Integration Testing')
+							$elm$html$Html$text('Testing: XCTest, Swift Testing, JUnit, Mockito, UI Testing, Unit Testing, Integration Testing, Automation Testing, Appium')
 						])),
 					A2(
 					$elm$html$Html$li,
@@ -6092,7 +6099,14 @@ var $author$project$Main$skillSection = A2(
 					_List_Nil,
 					_List_fromArray(
 						[
-							$elm$html$Html$text('Tools: Xcode, Android Studio, VS Code, Git, Git-flow, Cocoapods, SPM, Gradle, Jenkins CI/CD,Fastlane, Firebase, TestFlight, Figma, Jira, Confluence')
+							$elm$html$Html$text('DevOps: Jenkins CI/CD, Fastlane, GitLab, Github Actions, Docker')
+						])),
+					A2(
+					$elm$html$Html$li,
+					_List_Nil,
+					_List_fromArray(
+						[
+							$elm$html$Html$text('Tools: Xcode, Android Studio, VS Code, Copolit, Gemini, Git, Git-flow, npm, Cocoapods, SPM, Gradle, Maven, Firebase, TestFlight, Figma, Jira, Confluence')
 						])),
 					A2(
 					$elm$html$Html$li,
