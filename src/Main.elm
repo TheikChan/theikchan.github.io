@@ -108,7 +108,22 @@ projectsSection =
     div [ class "section projects" ]
         [ h1 [] [ text "Projects" ]
         , div [ class "grid-container" ]
-            [ div [ class "card" ]
+            [ 
+                div [ class "card" ]
+                [ img [ src "assets/mct_pay_app.png", class "card-image", alt "MCT Payment" ] []
+                , div [ class "card-content" ]
+                    [ h2 []
+                        [ p []
+                            [ text "MCT Pay - Terminal Payment"
+                            , text " "
+                            , a [ href "https://apps.apple.com/sg/app/mctpay/id1626416579" ] [ text "App Store Link" ]
+                            ]
+                        ]
+                    , p [] [ text """MCTPAY has helped companies in Singapore to receive payments online and offlie in the simplest way. Today, MCTPay is one of leading payment provider solutions in Singapore and South East Asia region. Combined Fiat Currency Paymet and Crypto Currency Paymet.""" ]
+                    ]
+                ]
+            ,
+                div [ class "card" ]
                 [ img [ src "assets/wave_pay_wallet_app.png", class "card-image", alt "WavePay Wallet" ] []
                 , div [ class "card-content" ]
                     [ h2 []

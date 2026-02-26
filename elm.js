@@ -5410,6 +5410,64 @@ var $author$project$Main$projectsSection = A2(
 							$elm$html$Html$img,
 							_List_fromArray(
 								[
+									$elm$html$Html$Attributes$src('assets/mct_pay_app.png'),
+									$elm$html$Html$Attributes$class('card-image'),
+									$elm$html$Html$Attributes$alt('MCT Payment')
+								]),
+							_List_Nil),
+							A2(
+							$elm$html$Html$div,
+							_List_fromArray(
+								[
+									$elm$html$Html$Attributes$class('card-content')
+								]),
+							_List_fromArray(
+								[
+									A2(
+									$elm$html$Html$h2,
+									_List_Nil,
+									_List_fromArray(
+										[
+											A2(
+											$elm$html$Html$p,
+											_List_Nil,
+											_List_fromArray(
+												[
+													$elm$html$Html$text('MCT Pay - Terminal Payment'),
+													$elm$html$Html$text(' '),
+													A2(
+													$elm$html$Html$a,
+													_List_fromArray(
+														[
+															$elm$html$Html$Attributes$href('https://apps.apple.com/sg/app/mctpay/id1626416579')
+														]),
+													_List_fromArray(
+														[
+															$elm$html$Html$text('App Store Link')
+														]))
+												]))
+										])),
+									A2(
+									$elm$html$Html$p,
+									_List_Nil,
+									_List_fromArray(
+										[
+											$elm$html$Html$text('MCTPAY has helped companies in Singapore to receive payments online and offlie in the simplest way. Today, MCTPay is one of leading payment provider solutions in Singapore and South East Asia region. Combined Fiat Currency Paymet and Crypto Currency Paymet.')
+										]))
+								]))
+						])),
+					A2(
+					$elm$html$Html$div,
+					_List_fromArray(
+						[
+							$elm$html$Html$Attributes$class('card')
+						]),
+					_List_fromArray(
+						[
+							A2(
+							$elm$html$Html$img,
+							_List_fromArray(
+								[
 									$elm$html$Html$Attributes$src('assets/wave_pay_wallet_app.png'),
 									$elm$html$Html$Attributes$class('card-image'),
 									$elm$html$Html$Attributes$alt('WavePay Wallet')
